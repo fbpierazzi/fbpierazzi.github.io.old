@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sara Casolari | Fabio Pierazzi</title>
+    <link>/authors/sara-casolari/</link>
+      <atom:link href="/authors/sara-casolari/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sara Casolari</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Sara Casolari</title>
+      <link>/authors/sara-casolari/</link>
+    </image>
+    
+    <item>
+      <title>Exploratory Security Analytics for Anomaly Detection</title>
+      <link>/publication/cose16/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cose16/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giovanni Apruzzese | Fabio Pierazzi</title>
+    <link>/authors/giovanni-apruzzese/</link>
+      <atom:link href="/authors/giovanni-apruzzese/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giovanni Apruzzese</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Giovanni Apruzzese</title>
+      <link>/authors/giovanni-apruzzese/</link>
+    </image>
+    
+    <item>
+      <title>Detection and Threat Prioritization of Pivoting Attacks in Large Networks</title>
+      <link>/publication/pivoting/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
+      <guid>/publication/pivoting/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scalable Architecture for Online Prioritisation of Cyber Threats</title>
+      <link>/publication/cycon17/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0100</pubDate>
+      <guid>/publication/cycon17/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

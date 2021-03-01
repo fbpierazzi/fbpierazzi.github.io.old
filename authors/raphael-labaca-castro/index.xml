@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raphael Labaca-Castro | Fabio Pierazzi</title>
+    <link>/authors/raphael-labaca-castro/</link>
+      <atom:link href="/authors/raphael-labaca-castro/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raphael Labaca-Castro</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Raphael Labaca-Castro</title>
+      <link>/authors/raphael-labaca-castro/</link>
+    </image>
+    
+    <item>
+      <title>Universal Adversarial Perturbations for Malware</title>
+      <link>/publication/gameup/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/gameup/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erwin Quiring | Fabio Pierazzi</title>
+    <link>/authors/erwin-quiring/</link>
+      <atom:link href="/authors/erwin-quiring/index.xml" rel="self" type="application/rss+xml" />
+    <description>Erwin Quiring</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Erwin Quiring</title>
+      <link>/authors/erwin-quiring/</link>
+    </image>
+    
+    <item>
+      <title>Dos and Don&#39;ts of Machine Learning in Computer Security</title>
+      <link>/publication/dodo/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
+      <guid>/publication/dodo/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

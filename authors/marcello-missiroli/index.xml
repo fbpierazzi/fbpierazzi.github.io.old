@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marcello Missiroli | Fabio Pierazzi</title>
+    <link>/authors/marcello-missiroli/</link>
+      <atom:link href="/authors/marcello-missiroli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marcello Missiroli</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 20 Jul 2014 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Marcello Missiroli</title>
+      <link>/authors/marcello-missiroli/</link>
+    </image>
+    
+    <item>
+      <title>Security and privacy of location-based services for in-vehicle device systems</title>
+      <link>/publication/lsauc/</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0100</pubDate>
+      <guid>/publication/lsauc/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient detection of unauthorized data modification in cloud databases</title>
+      <link>/publication/iscc/</link>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0100</pubDate>
+      <guid>/publication/iscc/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

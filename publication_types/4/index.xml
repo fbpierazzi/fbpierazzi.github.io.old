@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Fabio Pierazzi</title>
+    <link>/publication_types/4/</link>
+      <atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>4</title>
+      <link>/publication_types/4/</link>
+    </image>
+    
+    <item>
+      <title>Universal Adversarial Perturbations for Malware</title>
+      <link>/publication/gameup/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/gameup/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dos and Don&#39;ts of Machine Learning in Computer Security</title>
+      <link>/publication/dodo/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
+      <guid>/publication/dodo/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transcending Transcend: Revisiting Malware Classification with Conformal Evaluation</title>
+      <link>/publication/transcending/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0100</pubDate>
+      <guid>/publication/transcending/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

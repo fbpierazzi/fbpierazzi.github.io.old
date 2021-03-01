@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes | Academic</title>
+    <link>/home/</link>
+      <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Homes</title>
+      <link>/home/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      <guid>/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      <guid>/home/hero/</guid>
+      <description>&lt;p&gt;The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀
+&lt;div style=&#34;margin-top: -0.5rem;&#34;&gt;
+  &lt;a id=&#34;academic-release&#34; href=&#34;https://sourcethemes.com/academic/updates&#34; data-repo=&#34;gcushen/hugo-academic&#34;&gt;
+  Latest release &lt;!-- V --&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;mt-3&#34;&gt;
+  &lt;a class=&#34;github-button&#34; href=&#34;https://github.com/gcushen/hugo-academic&#34; data-icon=&#34;octicon-star&#34; data-size=&#34;large&#34; data-show-count=&#34;true&#34; aria-label=&#34;Star this on GitHub&#34;&gt;Star&lt;/a&gt;
+&lt;/div&gt;
+&lt;script async defer src=&#34;https://buttons.github.io/buttons.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;I am a &lt;strong&gt;Lecturer (~Assistant Professor)&lt;/strong&gt; in Computer Science at the &lt;a href=&#34;https://www.kcl.ac.uk/nms/depts/informatics&#34; target=&#34;_blank&#34;&gt;Department of Informatics&lt;/a&gt; of &lt;strong&gt;King&amp;rsquo;s College London&lt;/strong&gt;, and part of the &lt;a href=&#34;https://www.kcl.ac.uk/research/profile/cys&#34; target=&#34;_blank&#34;&gt;Cybersecurity Group (CYS)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My research interests lie at the intersection of AI and cybersecurity, with particular focus on intrusion detection, adversarial ML, and systems security.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red;&#34;&gt;&lt;b&gt;I am looking for strong Ph.D. students to join my research group. If you are interested, send me an email with your CV.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I completed my Ph.D. in Computer Science as a member of &lt;a href=&#34;https://weblab.ing.unimore.it&#34; target=&#34;_blank&#34;&gt;WEBLab&lt;/a&gt; at University of Modena (Italy) in March 2017, and I spent most of 2016 as a visiting research scholar at University of Maryland, College Park (US). I have then held a two-year PostDoctoral position in the &lt;a href=&#34;https://s2lab.kcl.ac.uk&#34; target=&#34;_blank&#34;&gt;Systems Security Research Lab (S2Lab)&lt;/a&gt; in the UK.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latest News</title>
+      <link>/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/news/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Nov 2019: Invited in &lt;strong&gt;Artifact Evaluation Committee&lt;/strong&gt; of &lt;strong&gt;USENIX Security 2020&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Oct 2019: Invited for a &lt;strong&gt;presentation at SoSySec seminar&lt;/strong&gt; at IRISA (Rennes, France) in Apr 2020&lt;/li&gt;
+&lt;li&gt;Oct 2019: Invited in &lt;strong&gt;TPC&lt;/strong&gt; of &lt;strong&gt;DIMVA 2020&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Oct 2019: We are presenting 3 research posters at Avast&amp;rsquo;s &lt;a href=&#34;https://www.cybersecprague.ai/&#34; target=&#34;_blank&#34;&gt;CyberSecAI Prague&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sep 2019: Started as &lt;strong&gt;Lecturer (~Assistant Professor)&lt;/strong&gt; in Computer Science at &lt;strong&gt;King&amp;rsquo;s College London&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Aug 2019: Invited in &lt;strong&gt;TPC of AAAI 2020&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Aug 2019: Presented &lt;a href=&#34;papers/sec19fall-final.pdf&#34; target=&#34;_blank&#34;&gt;TESSERACT&lt;/a&gt; at the USENIX Security Symposium 2019&lt;/li&gt;
+&lt;li&gt;Jul 2019: Our &lt;strong&gt;POSTER: Realistic Adversarial ML Attacks in the Problem-Space&lt;/strong&gt; has been accepted for presentation at &lt;strong&gt;USENIX Security Symposium&lt;/strong&gt;!&lt;/li&gt;
+&lt;li&gt;Apr 2019: Invited in the &lt;strong&gt;TPC of AISec&lt;/strong&gt; (CCS workshop).&lt;/li&gt;
+&lt;li&gt;Mar 2019: Camera ready of TESSERACT &lt;a href=&#34;papers/sec19fall-final.pdf&#34; target=&#34;_blank&#34;&gt;now available&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Mar 2019: Our paper &lt;em&gt;&amp;ldquo;DBank: Predictive Behavioral Analysis of Recent Android Banking Trojans&amp;rdquo;&lt;/em&gt; has been &lt;strong&gt;accepted at IEEE TDSC&lt;/strong&gt;! More details soon.&lt;/li&gt;
+&lt;li&gt;Feb 2019: Our paper &lt;em&gt;&amp;ldquo;TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time&amp;rdquo;&lt;/em&gt; has been &lt;strong&gt;accepted at USENIX Security Symposium 2019&lt;/strong&gt;!&lt;/li&gt;
+&lt;li&gt;Feb 2019: Member of &lt;strong&gt;TPC for Poster Track of IEEE S&amp;amp;P (Oakland)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Feb 2019: Invited in the TPC of IEEE NCA 2019.&lt;/li&gt;
+&lt;li&gt;Jan 2019: Attending &lt;em&gt;USENIX ENIGMA 2019&lt;/em&gt;, where Prof. Cavallaro will present some of our findings on &lt;a href=&#34;https://www.usenix.org/conference/enigma2019/presentation/cavallaro&#34; target=&#34;_blank&#34;&gt;experimental bias in ML for security&lt;/a&gt;. See you in San Francisco! &amp;#9992;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- - Dec 2018: Invited as **PC Member of IJCAI 2019**.
+- Oct 2018: Attending _ACM CCS 2018_. See you in Toronto! &amp;#9992;
+- Sep 2018: Accepted **POSTER paper at ACM CCS 2018**
+- Sep 2018: Invited in **Artifact Evaluation PC of ACSAC 2018** (2nd tier security conference)
+- Sep 2018: Invited in **TPC of AAAI 2019**
+- Aug 2018: Attending _ACM KDD 2018_. See you in London! &amp;#9992; --&gt;
+
+&lt;!-- - May 2018: My Ph.D. Dissertation has been selected as the best among the Computer Science Ph.D. theses defended in 2017 in my alma mater, Unimore.
+- Jan 2018: TPC of Innovations in Mobile Privacy &amp; Security (IMPS) 2018 (workshop co-located with IEEE EuroS&amp;P 2018)
+- Jan 2018: TPC of IEEE Smart Industries Workshop (SIW) 2018 (co-located with IEEE SmartComp 2018)
+- Dec 2017: Invited as a TPC member of IJCAI-ECAI 2018 (top-tier AI conference)
+- Nov 2017: Invited research talk on Nov 28 at CS Department of Dartmouth College, US - link Here
+- Nov 2017: Accepted as part of the Student Program Committee of IEEE S&amp;P 2018 (top-tier security conference)
+- Oct 2017: Paper accepted @ IEEE TETC!
+- Oct 2017: Joined S2Lab at Royal Holloway University of London --&gt;
+
+&lt;!-- This is an example of using the *custom* widget to create your own homepage section.
+
+To remove this section, either delete `content/home/teaching.md` or edit the frontmatter of the file to deactivate the widget by setting `active = false`.
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/kcl-logo.png&#34; data-caption=&#34;A caption&#34;&gt;
+&lt;img src=&#34;/img/kcl-logo.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A caption
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Articles</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0100</pubDate>
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>/home/talks_custom/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/talks_custom/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Apr 2020&lt;/em&gt;: Presentation at &lt;a href=&#34;https://seminaires-dga.inria.fr/en/sosysec-en-bref/&#34; target=&#34;_blank&#34;&gt;SoSySec seminar&lt;/a&gt; at IRISA (Rennes, France)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Aug 2019&lt;/em&gt;: TESSERACT paper presentation at &lt;strong&gt;USENIX Security Symposium&lt;/strong&gt; (&lt;a href=&#34;https://youtu.be/dbGYeAHC5s4&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Nov 2017&lt;/em&gt;: &lt;a href=&#34;https://www.ists.dartmouth.edu/events/speaker_series_2017/fabio_pierazzi_11_2017.pdf&#34; target=&#34;_blank&#34;&gt;Network Security Analytics for Detection of Advanced Cyberattacks&lt;/a&gt;, invited talk at &lt;strong&gt;Dartmouth College, US&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/home/service/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/service/</guid>
+      <description>
+
+&lt;h3 id=&#34;technical-program-committee&#34;&gt;Technical Program Committee&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2020: &lt;strong&gt;AAAI&lt;/strong&gt;, &lt;strong&gt;DIMVA&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2019: &lt;strong&gt;AAAI&lt;/strong&gt;, &lt;strong&gt;IJCAI&lt;/strong&gt;, &lt;strong&gt;Poster Track of IEEE S&amp;amp;P (Oakland)&lt;/strong&gt;, &lt;a href=&#34;http://cardsconference.org/program-committee/&#34; target=&#34;_blank&#34;&gt;CARDS&lt;/a&gt;, &lt;strong&gt;AISec&lt;/strong&gt; (CCS workshop), IEEE Network Computing and Applications (NCA)&lt;/li&gt;
+&lt;li&gt;2018: &lt;strong&gt;IJCAI-ECAI&lt;/strong&gt;, IEEE BDAA Workshop, IEEE Smart Industries Workshop&lt;/li&gt;
+&lt;li&gt;2017: IEEE Network Computing and Applications (NCA)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;shadow-technical-program-committee&#34;&gt;Shadow Technical Program Committee&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019: &lt;strong&gt;IEEE Symposium on Security &amp;amp; Privacy (Oakland)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;strong&gt;IEEE Symposium on Security &amp;amp; Privacy (Oakland)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;artifact-evaluation-pc&#34;&gt;Artifact Evaluation PC&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2020: &lt;strong&gt;USENIX Security&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2019: &lt;strong&gt;ACSAC&lt;/strong&gt;, &lt;strong&gt;USENIX WOOT&lt;/strong&gt;, &lt;strong&gt;SOSP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;strong&gt;ACSAC&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;workshop-chair&#34;&gt;Workshop Chair&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019: &lt;a href=&#34;http://cardsconference.org/program-committee/&#34; target=&#34;_blank&#34;&gt;CARDS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;review-service&#34;&gt;Review Service&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019: &lt;strong&gt;ACM Trans. Privacy and Security (TOPS)&lt;/strong&gt;, &lt;strong&gt;IEEE Trans. Neural Networks and Learning Systems (TNNLS)&lt;/strong&gt;, &lt;strong&gt;IEEE S&amp;amp;P Magazine&lt;/strong&gt;, IEEE Trans. Big Data, IEEE Trans. Engineering Management, Elsevier FGCS, Springer UK Books, Applied Sciences Journal&lt;/li&gt;
+&lt;li&gt;2018: &lt;strong&gt;IEEE Trans. Information Forensics and Security (TIFS)&lt;/strong&gt;, &lt;strong&gt;IEEE Trans. Neural Networks and Learning Systems (TNNLS)&lt;/strong&gt;, Elsevier Computer Networks Journal, International Journal of Machine Learning and Cybernetics (JMLC), Elsevier Journal of Information Security and Applications, Elsevier Expert Systems With Applications&lt;/li&gt;
+&lt;li&gt;2017: &lt;strong&gt;IEEE Trans. Information Forensics and Security (TIFS)&lt;/strong&gt;, Elsevier Journal of Information Security and Applications, Elsevier Expert Systems With Applications&lt;/li&gt;
+&lt;li&gt;2016: IEEE Trans. Computational Social Systems (TCSS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;sub-review-service&#34;&gt;Sub-review service&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019: &lt;strong&gt;USENIX Security&lt;/strong&gt;, &lt;strong&gt;ACM The Web Conference (WWW)&lt;/strong&gt;, &lt;strong&gt;IEEE Euro S&amp;amp;P&lt;/strong&gt;, &lt;strong&gt;DIMVA&lt;/strong&gt;, &lt;strong&gt;RAID&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;strong&gt;ACM CCS&lt;/strong&gt;, &lt;strong&gt;ACSAC&lt;/strong&gt;, ARES Conference, Deep Learning for Security (DLS) Workshop (co-located IEEE Symp. S&amp;amp;P), ACM CODASPY&lt;/li&gt;
+&lt;li&gt;2017: IEEE Trans. on Cloud Computing (TCC)&lt;/li&gt;
+&lt;li&gt;2016: IEEE International Conference on Communications (ICC), IEEE NetSciCom&lt;/li&gt;
+&lt;li&gt;2015: IEEE Network Computing and Applications (NCA), Elsevier Expert Systems With Applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- This is an example of using the *custom* widget to create your own homepage section.
+
+To remove this section, either delete `content/home/teaching.md` or edit the frontmatter of the file to deactivate the widget by setting `active = false`.
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/kcl-logo.png&#34; data-caption=&#34;A caption&#34;&gt;
+&lt;img src=&#34;/img/kcl-logo.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A caption
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching &amp;amp; Seminars</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/teaching/</guid>
+      <description>
+
+&lt;h3 id=&#34;2020&#34;&gt;2020&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Lecturer (Module Leader) for &lt;em&gt;&amp;ldquo;Security Testing&amp;rdquo;&lt;/em&gt;, MSc Cybersecurity, &lt;strong&gt;King&amp;rsquo;s College London, UK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Teaching part of &lt;em&gt;&amp;ldquo;Security monitoring I - Malware analysis and detection&amp;rdquo;&lt;/em&gt; within the &lt;a href=&#34;https://master.unibo.it/cybersecurity/en&#34; target=&#34;_blank&#34;&gt;Master (~Specialization Course) in Cybersecurity&lt;/a&gt; at &lt;strong&gt;University of Bologna, Italy&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Two-day module on &lt;em&gt;&amp;ldquo;Machine Learning for Security&amp;rdquo;&lt;/em&gt; at &lt;a href=&#34;http://cyber.unimore.it/&#34; target=&#34;_blank&#34;&gt;Cyber Academy&lt;/a&gt;, a specialization course on cybersecurity at the &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Seminars on &lt;em&gt;&amp;ldquo;Machine Learning for Security&amp;rdquo;&lt;/em&gt;, as part of &lt;em&gt;Malicious Software&lt;/em&gt; course, BSc in Information Security, &lt;strong&gt;Royal Holloway, University of London, UK&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2018&#34;&gt;2018&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seminar on &lt;em&gt;&amp;ldquo;Authentication and Access Control&amp;rdquo;&lt;/em&gt;, as part of &lt;em&gt;Security Engineering&lt;/em&gt; course, MSc Computer Science, &lt;strong&gt;King&amp;rsquo;s College London, UK&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;T.A. and Seminars on &lt;em&gt;&amp;ldquo;Machine Learning for Security&amp;rdquo;&lt;/em&gt;, as part of &lt;em&gt;Malicious Software&lt;/em&gt; course, BSc in Information Security, &lt;strong&gt;Royal Holloway, University of London, UK&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017&#34;&gt;2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Several lectures and lab tutor for part of the &lt;em&gt;&amp;ldquo;Network Systems and Applications&amp;rdquo;&lt;/em&gt; course, MSc in Computer Engineering, &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016&#34;&gt;2016&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seminars and T.A. for the &lt;em&gt;&amp;ldquo;Computer Security&amp;rdquo;&lt;/em&gt; course, MSc in Computer Engineering, &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2015&#34;&gt;2015&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Several lectures and lab tutor for part of the &lt;em&gt;&amp;ldquo;Network Systems and Applications&amp;rdquo;&lt;/em&gt; course, MSc in Computer Engineering, &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Seminars and T.A. for the &lt;em&gt;&amp;ldquo;Computer Security&amp;rdquo;&lt;/em&gt; course, MSc in Computer Engineering, &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2014&#34;&gt;2014&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seminars and T.A. for &lt;em&gt;&amp;ldquo;Network Systems and Applications&amp;rdquo;&lt;/em&gt; course, MSc in Computer Engineering, &lt;strong&gt;University of Modena and Reggio Emilia, Italy&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
+      <guid>/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

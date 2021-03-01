@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="author" content="Fabio Pierazzi">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="This post gives an introduction to the use of Python multiprocessing.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/multiprocessing/multiprocessing/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0d2c82">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-105698447-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Fabio Pierazzi">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Fabio Pierazzi">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/multiprocessing/multiprocessing/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@fbpierazzi">
+  <meta property="twitter:creator" content="@fbpierazzi">
+  
+  <meta property="og:site_name" content="Fabio Pierazzi">
+  <meta property="og:url" content="/post/multiprocessing/multiprocessing/">
+  <meta property="og:title" content="Introduction to Python multiprocessing | Fabio Pierazzi">
+  <meta property="og:description" content="This post gives an introduction to the use of Python multiprocessing."><meta property="og:image" content="/img/photo.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-03-02T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-03-02T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Introduction to Python multiprocessing | Fabio Pierazzi</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Fabio Pierazzi</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Selected Articles</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#service">
+            
+            <span>Service</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Introduction to Python multiprocessing</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Fabio Pierazzi">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-03-02 00:00:00 &#43;0000 GMT" itemprop="datePublished">
+    <time datetime="2019-03-02 00:00:00 &#43;0000 GMT" itemprop="dateModified">
+      Mar 2, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Fabio Pierazzi">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/multiprocessing/multiprocessing/#disqus_thread"></a>
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>In the past few years, I have been frequently asked how to easily parallelize in Python. It seems that people is often confused by the documentation online and are not sure which solution to go for. So, I decided to write a blog post about a minimum working example of <code>multiprocessing</code>,  which should be pretty easy and straightforward to use for a lot of situations.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>We need to import a couple of libraries: <code>multiprocessing</code> and (optionally) <code>tqdm</code>. In <code>Python3</code> (stable at 3.7 at the time of writing), the <code>multiprocessing</code> library is natively included; this library  allows you to define a function that you can spawn with different parameters on separate processes (it does not perform multithreading).</p>
+
+<pre><code class="language-python">import multiprocessing
+</code></pre>
+
+<p>The second library I would recommend is <code>tqdm</code>, which is not required but it has made my coding life so much easier since I started using it. This library creates a smart progress bar when it is used to wrap an iterable object (e.g., a list in a for cycle). To install it, just run <code>pip3 install tqdm --upgrade</code>. We will see how to use <code>tqdm</code> in its very basic form, but I recommend you to have a look at its <a href="https://github.com/tqdm/tqdm" target="_blank">official documentation</a> for more advanced usage.</p>
+
+<pre><code class="language-python">from tqdm import tqdm
+</code></pre>
+
+<h2 id="function-to-parallelize">Function to parallelize</h2>
+
+<p>First, let us define the function that you would like to parallelize. You often have to rethink the logic of your program, but if you have some independent cpu-intensive operations (e.g., training, parsing of long files, preprocessing), chances are there is a way to rethink your code to create a single, independent function that will run on a separate process.</p>
+
+<p>Let us define here a function, namely <code>function_to_parallelize</code>, that just takes two parameters as input and sums them. In this function you can actually do any sort of processing, as long as it is dependent solely on the input
+parameters. It is relevant to observe that you must use a <strong>single input parameter</strong> for this function. This is not a problem, as this single parameter can be a dictionary containing many parameters that you can unpack. For the purpose of this tutorial, I am using <code>param1</code> and <code>param2</code> as parameter names, but of course you can use any name and number of parameters (as long as you embed them within a single <code>params</code> dictionary).</p>
+
+<p>Of course, parameter names need to match the names in the list you pass to the <code>multiprocessing</code> library (as we will see in a bit).</p>
+
+<pre><code class="language-python">def function_to_parallelize(params):
+    param1 = params['param1']
+    param2 = params['param2']
+
+    # I would recommend to use a dictionary
+    # so you can create richer results
+    # to return to the main process
+    result = {}
+
+    # Do your processing with param1 and param2.
+    # Here, you can do any sort of processing, and
+    # it will be executed independently on a separate process
+    # on a separate (virtual) core of your CPU
+    result['sum'] = param1+param2
+
+    return result
+</code></pre>
+
+<h2 id="parallelization">Parallelization</h2>
+
+<p>To perform the actual parallelization, we need to define the number of (virtual) cores that we want to use, and we need to define a-priori the list of parameter combinations that we are going to spawn in parallel.</p>
+
+<hr />
+
+<p>You can check how many (virtual) cores you have by using the command line tools <code>htop</code> or <code>glances</code>. I would recommend always leaving a couple of cores free, to avoid your machine to go into thrashing with the experts.</p>
+
+<pre><code class="language-python"># This chooses all cores except 2, unless there are only two or less cores.
+NCPU = multiprocessing.cpu_count() - 2 if multiprocessing.cpu_count() &gt; 2 else 1
+</code></pre>
+
+<p>Then, you need to define the parameters that each process will receive as input. You have to basically create a list of parameters. They can be in any number and quantity, and I usually prefer to define them as a <code>generator</code> of a <code>dict comprehension</code> for brevity.</p>
+
+<pre><code class="language-python"># Create a Python generator containing a set comprehension of parameters.
+# You need to identify what you would like to parallelize on, and then build
+# the parameters dictionary
+X_values = [10,22,35,4,532,12,42,53,23]
+params = ({
+    'param1': x,
+    'param2': 15
+} for x in X_values)
+
+</code></pre>
+
+<p><strong>Note</strong>: I recommend <em>not</em> to pass big structures as parameters (e.g., large matrices) because it can create a lot of inter-process communication that can cause severe delays or memory errors (e.g., use all the RAM in the machine). When possible, use <a href="https://docs.python.org/3/tutorial/classes.html#generators" target="_blank">Python generators</a> instead of Python lists (as shown above); in this way, the parameters list will not be pre-allocated all at once, but instead it will be allocated while iterating through the cycle.</p>
+
+<hr />
+
+<p>Now we are ready to start the actual multiprocessing. We create a <code>Pool</code> of processes that is managed by the <code>multiprocessing</code> library itself. Then, Python allows us to iterate through the Pool and get back the results. The function <code>p.imap</code> returns the results in order.</p>
+
+<pre><code class="language-python">with multiprocessing.Pool(processes=NCPU) as p:    
+
+    # If you use &quot;generators&quot; for the params list,  
+    # tqdm will not know the total length of the array
+    # (required for the progress bar),
+    # so you have to specify it explicitly,
+    # or derive it from your params.
+    MAX_COUNT = len(X_values)
+
+    for res in tqdm(p.imap(function_to_parallelize, params),total=MAX_COUNT):
+        if res is not None:
+            print(res['sum'])
+
+</code></pre>
+
+<pre><code>  0%|          | 0/9 [00:00&lt;?, ?it/s]
+</code></pre>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<ol>
+<li><p><strong>Machine becomes slow and unresponsive after using multiprocessing</strong></p>
+
+<p>I have noticed that sometimes the <code>multiprocessing</code> library, for very large batches of experiments, leaves some operating system reources in usage&mdash;hence, the virtual machine in which you may be running your experiments could become slow and unresponsive after many days of experiments. It may be a problem of the infrastructure I am using to do the experiments, but I have seen this also happening to other colleagues that use other infrastructures. My best recommendation so far is to <strong>restart the VM</strong> if it becomes very slow after using the <code>multiprocessing</code> library. I know this is a kind of &ldquo;Have you tried to turn it off and on?&rdquo; solution, but it has worked so far. I will dig deeper into this, or if you have any insight please do not hesitate to leave a comment below.</p></li>
+
+<li><p><strong>Each iteration is too slow/Too much RAM is being used</strong></p>
+
+<p>Double check that you are using a Python <code>generator</code> (and not a <code>list</code>) for the list of parameters (the object named <code>params</code> in the above code). Also, if you are passing big data structures (e.g., huge feature matrices), remember that that RAM will be used for each process spawned. So, I recommend to do slicing (if possible) before passing big matrices as parameters if you do not need all the rows/columns for your processing.</p></li>
+</ol>
+
+<h2 id="final-considerations">Final Considerations</h2>
+
+<p>I hope you have found this tutorial useful. Many people go for complex solutions for parallelizing Python code, but in most cases I found out that this easy solution is quite as effective. I have put the full code of this minimum working example on GitHub, <a href="https://github.com/fbpierazzi/mwe-python-multiprocessing" target="_blank">here</a>. If you have any suggestion to improve this tutorial or any parts that are not clear, just leave a comment!</p>
+
+<p>I would be happy to hear if you have other suggestions to perform multiprocessing in a more effective way.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/tutorial/">tutorial</a>
+  
+  <a class="badge badge-light" href="/tags/python/">python</a>
+  
+  <a class="badge badge-light" href="/tags/multiprocessing/">multiprocessing</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/photo.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Fabio Pierazzi</a></h5>
+    <h6 class="card-subtitle">PostDoctoral Researcher</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:fabio.pierazzi@kcl.ac.uk" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/fbpierazzi" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/fpierazzi" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Fabio_Pierazzi" target="_blank" rel="noopener">
+          <i class="ai ai-researchgate"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.it/citations?user=rAGRBOAAAAAJ" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fbpierazzi" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//fbpierazzi.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
+
+    
+
+  </body>
+</html>
+

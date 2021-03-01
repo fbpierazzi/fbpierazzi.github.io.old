@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabio Pierazzi&amp;#42; | Fabio Pierazzi</title>
+    <link>/authors/fabio-pierazzi#42/</link>
+      <atom:link href="/authors/fabio-pierazzi#42/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabio Pierazzi&amp;#42;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Fabio Pierazzi&amp;#42;</title>
+      <link>/authors/fabio-pierazzi#42/</link>
+    </image>
+    
+    <item>
+      <title>Intriguing Properties of Adversarial ML Attacks in the Problem Space</title>
+      <link>/publication/apg/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/apg/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>POSTER: Realistic Adversarial ML Attacks in the Problem-Space</title>
+      <link>/publication/apg-poster/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication/apg-poster/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time</title>
+      <link>/publication/tesseract-usenix/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication/tesseract-usenix/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>POSTER: Enabling Fair ML Evaluations for Security</title>
+      <link>/publication/tesseract-poster/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0100</pubDate>
+      <guid>/publication/tesseract-poster/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

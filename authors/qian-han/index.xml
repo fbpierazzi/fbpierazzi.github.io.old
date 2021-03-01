@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qian Han | Fabio Pierazzi</title>
+    <link>/authors/qian-han/</link>
+      <atom:link href="/authors/qian-han/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qian Han</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Qian Han</title>
+      <link>/authors/qian-han/</link>
+    </image>
+    
+    <item>
+      <title>A Data-Driven Characterization of Modern Android Spyware</title>
+      <link>/publication/spyware/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/spyware/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DBank: Predictive Behavioral Analysis of Recent Android Banking Trojans</title>
+      <link>/publication/dbank/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dbank/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
