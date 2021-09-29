@@ -3,27 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication_types/4/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/alexander-warnecke/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/fabio-pierazzi/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
+    <loc>/authors/christian-wressnegger/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-arp/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/dodo/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/erwin-quiring/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/fabio-pierazzi/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/feargus-pendlebury/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/konrad-rieck/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lorenzo-cavallaro/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-08-10T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/annalisa-appice/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/corrado-loglisci/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/giuseppina-andresini/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/insomnia/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/deplusplus/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/zeliang-kan/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/4/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,22 +113,7 @@
   </url>
   
   <url>
-    <loc>/authors/lorenzo-cavallaro/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/luis-mu#241oz-gonzaacutelez/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,36 +163,6 @@
   </url>
   
   <url>
-    <loc>/authors/alexander-warnecke/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/christian-wressnegger/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/daniel-arp/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/dodo/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/erwin-quiring/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/konrad-rieck/</loc>
-    <lastmod>2020-10-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/federico-barbero/</loc>
     <lastmod>2020-10-08T00:00:00+01:00</lastmod>
   </url>
@@ -135,11 +170,6 @@
   <url>
     <loc>/publication/transcending/</loc>
     <lastmod>2020-10-08T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

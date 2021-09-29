@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corrado Loglisci | Fabio Pierazzi</title>
+    <link>/authors/corrado-loglisci/</link>
+      <atom:link href="/authors/corrado-loglisci/index.xml" rel="self" type="application/rss+xml" />
+    <description>Corrado Loglisci</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Corrado Loglisci</title>
+      <link>/authors/corrado-loglisci/</link>
+    </image>
+    
+    <item>
+      <title>Investigating Labelless Drift Adaptation for Malware Detection</title>
+      <link>/publication/deplusplus/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/deplusplus/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

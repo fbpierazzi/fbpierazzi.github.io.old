@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,9 +13,41 @@
     </image>
     
     <item>
+      <title>Alexander Warnecke</title>
+      <link>/authors/alexander-warnecke/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/alexander-warnecke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christian Wressnegger</title>
+      <link>/authors/christian-wressnegger/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/christian-wressnegger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Arp</title>
+      <link>/authors/daniel-arp/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/daniel-arp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erwin Quiring</title>
+      <link>/authors/erwin-quiring/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/erwin-quiring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fabio Pierazzi</title>
       <link>/authors/fabio-pierazzi/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
       <guid>/authors/fabio-pierazzi/</guid>
       <description></description>
     </item>
@@ -23,8 +55,56 @@
     <item>
       <title>Feargus Pendlebury</title>
       <link>/authors/feargus-pendlebury/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
       <guid>/authors/feargus-pendlebury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konrad Rieck</title>
+      <link>/authors/konrad-rieck/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/konrad-rieck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorenzo Cavallaro</title>
+      <link>/authors/lorenzo-cavallaro/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/authors/lorenzo-cavallaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annalisa Appice</title>
+      <link>/authors/annalisa-appice/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/annalisa-appice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corrado Loglisci</title>
+      <link>/authors/corrado-loglisci/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/corrado-loglisci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giuseppina Andresini</title>
+      <link>/authors/giuseppina-andresini/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/giuseppina-andresini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zeliang Kan</title>
+      <link>/authors/zeliang-kan/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/zeliang-kan/</guid>
       <description></description>
     </item>
     
@@ -33,14 +113,6 @@
       <link>/authors/gabi-dreo-rodosek/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       <guid>/authors/gabi-dreo-rodosek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lorenzo Cavallaro</title>
-      <link>/authors/lorenzo-cavallaro/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/lorenzo-cavallaro/</guid>
       <description></description>
     </item>
     
@@ -97,46 +169,6 @@
       <link>/authors/stefano-cristalli/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/authors/stefano-cristalli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexander Warnecke</title>
-      <link>/authors/alexander-warnecke/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/authors/alexander-warnecke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Christian Wressnegger</title>
-      <link>/authors/christian-wressnegger/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/authors/christian-wressnegger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daniel Arp</title>
-      <link>/authors/daniel-arp/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/authors/daniel-arp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Erwin Quiring</title>
-      <link>/authors/erwin-quiring/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/authors/erwin-quiring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Konrad Rieck</title>
-      <link>/authors/konrad-rieck/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/authors/konrad-rieck/</guid>
       <description></description>
     </item>
     
@@ -321,15 +353,17 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a &lt;strong&gt;Lecturer (Assistant Professor)&lt;/strong&gt; in Computer Science at the &lt;a href=&#34;https://www.kcl.ac.uk/nms/depts/informatics&#34; target=&#34;_blank&#34;&gt;Department of Informatics&lt;/a&gt; of &lt;strong&gt;King&amp;rsquo;s College London&lt;/strong&gt;, and part of &lt;a href=&#34;https://s2lab.kcl.ac.uk/&#34; target=&#34;_blank&#34;&gt;Systems Security Research Lab (S2Lab)&lt;/a&gt; and &lt;a href=&#34;https://www.kcl.ac.uk/research/profile/cys&#34; target=&#34;_blank&#34;&gt;Cybersecurity Group (CYS)&lt;/a&gt;. I am also the &lt;em&gt;Programme Leader&lt;/em&gt; of the &lt;em&gt;MSc in Cyber Security&lt;/em&gt; at King&amp;rsquo;s College London.&lt;/p&gt;
+      <description>&lt;p&gt;I am a &lt;strong&gt;Lecturer (Assistant Professor)&lt;/strong&gt; in Cybersecurity at the &lt;a href=&#34;https://www.kcl.ac.uk/nms/depts/informatics&#34; target=&#34;_blank&#34;&gt;Department of Informatics&lt;/a&gt; of &lt;strong&gt;King&amp;rsquo;s College London (KCL)&lt;/strong&gt;, where I am also part of &lt;a href=&#34;https://www.kcl.ac.uk/research/profile/cys&#34; target=&#34;_blank&#34;&gt;Cybersecurity Group (CYS)&lt;/a&gt;, and  &lt;em&gt;Programme Leader&lt;/em&gt; of the &lt;em&gt;MSc in Cyber Security&lt;/em&gt;. I also closely collaborate with UCL&amp;rsquo;s &lt;a href=&#34;https://s2lab.kcl.ac.uk/&#34; target=&#34;_blank&#34;&gt;Systems Security Research Lab (S2Lab)&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;My research interests lie at the intersection of AI and cybersecurity, with particular focus on intrusion detection, adversarial ML, and systems security.&lt;/p&gt;
+&lt;p&gt;My research interests lie at the intersection of AI and cybersecurity, with particular focus on systems security, adversarial ML, malware analysis, and network security.&lt;/p&gt;
 
 &lt;p&gt;I completed my Ph.D. in Computer Science as a member of &lt;a href=&#34;https://weblab.ing.unimore.it&#34; target=&#34;_blank&#34;&gt;WEBLab&lt;/a&gt; at University of Modena (Italy) in March 2017, and I spent most of 2016 as a visiting research scholar at University of Maryland, College Park (US). I have then held a two-year PostDoctoral position in the S2Lab in the UK (first at Royal Holloway, University of London, then at King&amp;rsquo;s College London).&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;Special Issue&lt;/span&gt; &lt;strong&gt;I am one of the guest editors of a &lt;a href=&#34;https://dl.acm.org/pb-assets/dtrap/OffensiveMLSpecialIssue-1612112373120.pdf&#34; target=&#34;_blank&#34;&gt;Special Issue on &amp;ldquo;Offensive Machine Learning&amp;rdquo;&lt;/a&gt; as part of ACM DTRAP journal. &lt;em&gt;Deadline: July 30th, 2021&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- &lt;span class=&#34;badge badge-warning&#34;&gt;Special Issue&lt;/span&gt; **I am one of the guest editors of a [Special Issue on &#34;Offensive Machine Learning&#34;](https://dl.acm.org/pb-assets/dtrap/OffensiveMLSpecialIssue-1612112373120.pdf) as part of ACM DTRAP journal. _Deadline: July 30th, 2021_.** --&gt;
 
-&lt;p&gt;&lt;span class=&#34;badge badge-danger&#34;&gt;I&amp;rsquo;m Hiring!&lt;/span&gt; &lt;strong&gt;I am recruiting Ph.D. students to join my research group at King&amp;rsquo;s College London. If you are interested, &lt;a href=&#34;/prospective/&#34;&gt;read this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;Workshop&lt;/span&gt; &lt;strong&gt;I am Program Co-Chair of the &lt;a href=&#34;https://worma.gitlab.io/2022/&#34; target=&#34;_blank&#34;&gt;1st ACM Workshop on Robust Malware Analysis (WoRMA)&lt;/a&gt;, co-located with ACM AsiaCCS.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;badge badge-danger&#34;&gt;I&amp;rsquo;m Hiring!&lt;/span&gt; &lt;strong&gt;I am recruiting Ph.D. students to join my research team at King&amp;rsquo;s College London. If you are interested, &lt;a href=&#34;/prospective/&#34;&gt;read this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
