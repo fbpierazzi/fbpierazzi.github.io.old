@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Fabio Pierazzi</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <title>literature review | Fabio Pierazzi</title>
+    <link>/tags/literature-review/</link>
+      <atom:link href="/tags/literature-review/index.xml" rel="self" type="application/rss+xml" />
+    <description>literature review</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Posts</title>
-      <link>/post/</link>
+      <title>literature review</title>
+      <link>/tags/literature-review/</link>
     </image>
     
     <item>
@@ -210,123 +210,6 @@ you interesting references to look into.&lt;/li&gt;
 &lt;p&gt;This is not meant to be an exhaustive list of relevant publication venues, and tips for conducting a literature review. In general, you should see this just as an initial advice to help you navigate more confidently within the state of the art of Systems Security, upon venturing in it for the first time.&lt;/p&gt;
 
 &lt;p&gt;I would be very happy to hear what are your experiences and if you have any other relevant advice into conducting literature review.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Python multiprocessing</title>
-      <link>/post/tutorial/multiprocessing/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/post/tutorial/multiprocessing/</guid>
-      <description>
-
-&lt;p&gt;In the past few years, I have been frequently asked how to easily parallelize in Python. It seems that people is often confused by the documentation online and are not sure which solution to go for. So, I decided to write a blog post about a minimum working example of &lt;code&gt;multiprocessing&lt;/code&gt;,  which should be pretty easy and straightforward to use for a lot of situations.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;We need to import a couple of libraries: &lt;code&gt;multiprocessing&lt;/code&gt; and (optionally) &lt;code&gt;tqdm&lt;/code&gt;. In &lt;code&gt;Python3&lt;/code&gt; (stable at 3.7 at the time of writing), the &lt;code&gt;multiprocessing&lt;/code&gt; library is natively included; this library  allows you to define a function that you can spawn with different parameters on separate processes (it does not perform multithreading).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import multiprocessing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The second library I would recommend is &lt;code&gt;tqdm&lt;/code&gt;, which is not required but it has made my coding life so much easier since I started using it. This library creates a smart progress bar when it is used to wrap an iterable object (e.g., a list in a for cycle). To install it, just run &lt;code&gt;pip3 install tqdm --upgrade&lt;/code&gt;. We will see how to use &lt;code&gt;tqdm&lt;/code&gt; in its very basic form, but I recommend you to have a look at its &lt;a href=&#34;https://github.com/tqdm/tqdm&#34; target=&#34;_blank&#34;&gt;official documentation&lt;/a&gt; for more advanced usage.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from tqdm import tqdm
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;function-to-parallelize&#34;&gt;Function to parallelize&lt;/h2&gt;
-
-&lt;p&gt;First, let us define the function that you would like to parallelize. You often have to rethink the logic of your program, but if you have some independent cpu-intensive operations (e.g., training, parsing of long files, preprocessing), chances are there is a way to rethink your code to create a single, independent function that will run on a separate process.&lt;/p&gt;
-
-&lt;p&gt;Let us define here a function, namely &lt;code&gt;function_to_parallelize&lt;/code&gt;, that just takes two parameters as input and sums them. In this function you can actually do any sort of processing, as long as it is dependent solely on the input
-parameters. It is relevant to observe that you must use a &lt;strong&gt;single input parameter&lt;/strong&gt; for this function. This is not a problem, as this single parameter can be a dictionary containing many parameters that you can unpack. For the purpose of this tutorial, I am using &lt;code&gt;param1&lt;/code&gt; and &lt;code&gt;param2&lt;/code&gt; as parameter names, but of course you can use any name and number of parameters (as long as you embed them within a single &lt;code&gt;params&lt;/code&gt; dictionary).&lt;/p&gt;
-
-&lt;p&gt;Of course, parameter names need to match the names in the list you pass to the &lt;code&gt;multiprocessing&lt;/code&gt; library (as we will see in a bit).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def function_to_parallelize(params):
-    param1 = params[&#39;param1&#39;]
-    param2 = params[&#39;param2&#39;]
-
-    # I would recommend to use a dictionary
-    # so you can create richer results
-    # to return to the main process
-    result = {}
-
-    # Do your processing with param1 and param2.
-    # Here, you can do any sort of processing, and
-    # it will be executed independently on a separate process
-    # on a separate (virtual) core of your CPU
-    result[&#39;sum&#39;] = param1+param2
-
-    return result
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;parallelization&#34;&gt;Parallelization&lt;/h2&gt;
-
-&lt;p&gt;To perform the actual parallelization, we need to define the number of (virtual) cores that we want to use, and we need to define a-priori the list of parameter combinations that we are going to spawn in parallel.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;You can check how many (virtual) cores you have by using the command line tools &lt;code&gt;htop&lt;/code&gt; or &lt;code&gt;glances&lt;/code&gt;. I would recommend always leaving a couple of cores free, to avoid your machine to go into thrashing with the experts.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# This chooses all cores except 2, unless there are only two or less cores.
-NCPU = multiprocessing.cpu_count() - 2 if multiprocessing.cpu_count() &amp;gt; 2 else 1
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then, you need to define the parameters that each process will receive as input. You have to basically create a list of parameters. They can be in any number and quantity, and I usually prefer to define them as a &lt;code&gt;generator&lt;/code&gt; of a &lt;code&gt;dict comprehension&lt;/code&gt; for brevity.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a Python generator containing a set comprehension of parameters.
-# You need to identify what you would like to parallelize on, and then build
-# the parameters dictionary
-X_values = [10,22,35,4,532,12,42,53,23]
-params = ({
-    &#39;param1&#39;: x,
-    &#39;param2&#39;: 15
-} for x in X_values)
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: I recommend &lt;em&gt;not&lt;/em&gt; to pass big structures as parameters (e.g., large matrices) because it can create a lot of inter-process communication that can cause severe delays or memory errors (e.g., use all the RAM in the machine). When possible, use &lt;a href=&#34;https://docs.python.org/3/tutorial/classes.html#generators&#34; target=&#34;_blank&#34;&gt;Python generators&lt;/a&gt; instead of Python lists (as shown above); in this way, the parameters list will not be pre-allocated all at once, but instead it will be allocated while iterating through the cycle.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Now we are ready to start the actual multiprocessing. We create a &lt;code&gt;Pool&lt;/code&gt; of processes that is managed by the &lt;code&gt;multiprocessing&lt;/code&gt; library itself. Then, Python allows us to iterate through the Pool and get back the results. The function &lt;code&gt;p.imap&lt;/code&gt; returns the results in order.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;with multiprocessing.Pool(processes=NCPU) as p:    
-
-    # If you use &amp;quot;generators&amp;quot; for the params list,  
-    # tqdm will not know the total length of the array
-    # (required for the progress bar),
-    # so you have to specify it explicitly,
-    # or derive it from your params.
-    MAX_COUNT = len(X_values)
-
-    for res in tqdm(p.imap(function_to_parallelize, params),total=MAX_COUNT):
-        if res is not None:
-            print(res[&#39;sum&#39;])
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;  0%|          | 0/9 [00:00&amp;lt;?, ?it/s]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Machine becomes slow and unresponsive after using multiprocessing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I have noticed that sometimes the &lt;code&gt;multiprocessing&lt;/code&gt; library, for very large batches of experiments, leaves some operating system reources in usage&amp;mdash;hence, the virtual machine in which you may be running your experiments could become slow and unresponsive after many days of experiments. It may be a problem of the infrastructure I am using to do the experiments, but I have seen this also happening to other colleagues that use other infrastructures. My best recommendation so far is to &lt;strong&gt;restart the VM&lt;/strong&gt; if it becomes very slow after using the &lt;code&gt;multiprocessing&lt;/code&gt; library. I know this is a kind of &amp;ldquo;Have you tried to turn it off and on?&amp;rdquo; solution, but it has worked so far. I will dig deeper into this, or if you have any insight please do not hesitate to leave a comment below.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Each iteration is too slow/Too much RAM is being used&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Double check that you are using a Python &lt;code&gt;generator&lt;/code&gt; (and not a &lt;code&gt;list&lt;/code&gt;) for the list of parameters (the object named &lt;code&gt;params&lt;/code&gt; in the above code). Also, if you are passing big data structures (e.g., huge feature matrices), remember that that RAM will be used for each process spawned. So, I recommend to do slicing (if possible) before passing big matrices as parameters if you do not need all the rows/columns for your processing.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;final-considerations&#34;&gt;Final Considerations&lt;/h2&gt;
-
-&lt;p&gt;I hope you have found this tutorial useful. Many people go for complex solutions for parallelizing Python code, but in most cases I found out that this easy solution is quite as effective. I have put the full code of this minimum working example on GitHub, &lt;a href=&#34;https://github.com/fbpierazzi/mwe-python-multiprocessing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. If you have any suggestion to improve this tutorial or any parts that are not clear, just leave a comment!&lt;/p&gt;
-
-&lt;p&gt;I would be happy to hear if you have other suggestions to perform multiprocessing in a more effective way.&lt;/p&gt;
 </description>
     </item>
     

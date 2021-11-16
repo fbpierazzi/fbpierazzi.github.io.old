@@ -5,12 +5,213 @@
     <link>/tags/tutorial/</link>
       <atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <description>tutorial</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>tutorial</title>
       <link>/tags/tutorial/</link>
     </image>
+    
+    <item>
+      <title>How to Review Literature in Systems Security</title>
+      <link>/post/tutorial/literaturereview/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0100</pubDate>
+      <guid>/post/tutorial/literaturereview/</guid>
+      <description>
+
+&lt;p&gt;This post is targeted mostly for BSc/MSc students doing their dissertations, or early career Ph.D. students who need support in understanding how to conduct a proper literature review in systems security, and to position your work within the state of the art.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Please note that this post represents my own personal opinion (which also evolves over time as I learn more :-) ), based on my experience so far as a researcher working in Systems Security &amp;amp; AI. My intent is solely to provide initial recommendations to early career research students tackling their first large project who want to understand better how to conduct a literature review. If you have any feedback, I&amp;rsquo;d be more than happy to challenge my views and integrate and revise my recommendations!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In these years as a faculty member and academic supervisor, I see students struggle more and more with understanding how to conduct a literature review. This is understandable: the field has been growing extensively, and more and more papers get published in reputable venues, so it is hard to create a &amp;ldquo;mental compass&amp;rdquo; to orient yourself in this sea of literature. Even within Computer Science, every discipline has different venues and understanding how to look for related works requires some effort and experience. Indeed, this guide is meant mostly for Systems Security.&lt;/p&gt;
+
+&lt;p&gt;During my undergraduate dissertation, I really struggled to understand what it meant to write a &amp;ldquo;Related Work&amp;rdquo; section. I got confused because&amp;mdash;to me&amp;mdash;it looked very similar to the &amp;ldquo;Introduction&amp;rdquo; section. Moreover, I felt intimidated to approach and read &amp;ldquo;research papers&amp;rdquo; written by experts, as I thought you needed to be a &amp;ldquo;genius&amp;rdquo; to read one of those.&lt;/p&gt;
+
+&lt;p&gt;In practice, a BSc/MSc in Computer Science should give you all the ingredients you need to first approach a research paper. You need to read within your area of expertise, and be patient and persistent: you will not understand everything after one read, and you need to be patient to really understand concepts sometimes. Another important skill is to learn how to navigate the literature, so you can build the foundational knowledge you need to understand more advanced topics. Nevertheless, good research papers&amp;mdash;while technical&amp;mdash;are also written and structured in an extremely clear way, as they are meant to be understood by a technical audience.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;publication-quality&#34;&gt;Publication Quality&lt;/h2&gt;
+
+&lt;p&gt;Determining the quality of publications is a hard problem that requires expertise and in-depth critical assessment of what you are reading. However, you may use some criteria to prioritize your literature review and identify papers which are more relevant to your research.&lt;/p&gt;
+
+&lt;h3 id=&#34;publication-venues&#34;&gt;Publication venues&lt;/h3&gt;
+
+&lt;p&gt;In academia, research articles are mostly published via &lt;strong&gt;peer-review&lt;/strong&gt;. In &lt;strong&gt;academic conferences&lt;/strong&gt;, a program committee of experts reviews the paper independently and determines whether its originality, rigor and significance is sufficient to be published at a certain venue. In &lt;strong&gt;academic journals&lt;/strong&gt;, there is a committee of &amp;ldquo;associate editors&amp;rdquo; which then invite external experts to coordinate the review process.&lt;/p&gt;
+
+&lt;p&gt;Hence, &lt;strong&gt;publication venue&lt;/strong&gt; can be typically used as initial proxies of quality.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind there could still be bad papers published in good venues (and viceversa), but indicatively venues that are quite selective tend to contain work of higher quality. I find this could be useful especially when you start as a student to read research paper and you feel &amp;ldquo;lost in the sea&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;My list does not intend to be exhaustive, but just indicative.&lt;/p&gt;
+
+&lt;p&gt;Two highly recommended reads are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sec.cs.tu-bs.de/~konrieck/topnotch/&#34; target=&#34;_blank&#34;&gt;Influental Security Papers&lt;/a&gt;, by Konrad Rieck, TU Braunschweig&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sec.cs.tu-bs.de/~konrieck/topnotch/&#34; target=&#34;_blank&#34;&gt;Systems Security Circus&lt;/a&gt;, by Davide Balzarotti, S3@Eurecom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;conferences&#34;&gt;Conferences&lt;/h4&gt;
+
+&lt;p&gt;Academic conferences typically have one edition per year in which authors meet together to discuss and present the works published in that year&amp;rsquo;s proceedings. Now it has become more frequent to have multiple submission deadlines throughout the years, but each conference remains with a yearly edition in which works are presented.&lt;/p&gt;
+
+&lt;p&gt;In Systems Security, there are typically four main academic conferences which are commonly considered &lt;strong&gt;top-tier conferences&lt;/strong&gt; by the community:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ieee-security.org/TC/SP2022/&#34; target=&#34;_blank&#34;&gt;IEEE Symposium on Security &amp;amp; Privacy (S&amp;amp;P, Oakland)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity22&#34; target=&#34;_blank&#34;&gt;USENIX Security Symposium (Sec)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sigsac.org/ccs/CCS2021/&#34; target=&#34;_blank&#34;&gt;ACM Computers and Communication Security (CCS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ndss-symposium.org/ndss2022/#&#34; target=&#34;_blank&#34;&gt;The Network and Distributed System Security (NDSS) Symposium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Apart from the &amp;ldquo;top four&amp;rdquo;, other highly reputable venues in Systems Security include (but are not limited to):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ieee-security.org/TC/EuroSP2021/&#34; target=&#34;_blank&#34;&gt;IEEE European Symposium on Security and Privacy (EuroS&amp;amp;P)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acsac.org&#34; target=&#34;_blank&#34;&gt;Annual Computer Security Applications Conference (ACSAC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asiaccs2022.conferenceservice.jp/&#34; target=&#34;_blank&#34;&gt;ACM ASIA Conference on Computer and Communications Security (ASIACCS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raid2021.org&#34; target=&#34;_blank&#34;&gt;International Symposium on Research in Attacks, Intrusions and Defenses (RAID)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dimva2021.campus.ciencias.ulisboa.pt&#34; target=&#34;_blank&#34;&gt;Conference on Detection of Intrusions and Malware &amp;amp; Vulnerability Assessment (DIMVA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://esorics2021.athene-center.de&#34; target=&#34;_blank&#34;&gt;European Symposium on Research in Computer Security (ESORICS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.codaspy.org/2022/&#34; target=&#34;_blank&#34;&gt;ACM Conference on Data and Application Security and Privacy (CODASPY)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are also &lt;strong&gt;top workshops&lt;/strong&gt; on specific sub-topics, such as: &lt;a href=&#34;https://www.usenix.org/conference/scainet20&#34; target=&#34;_blank&#34;&gt;ScAInet&lt;/a&gt;, &lt;a href=&#34;https://aisec.cc&#34; target=&#34;_blank&#34;&gt;AISec&lt;/a&gt;, &lt;a href=&#34;https://www.ieee-security.org/TC/SP2021/SPW2021/WOOT21/&#34; target=&#34;_blank&#34;&gt;w00t&lt;/a&gt;, &lt;a href=&#34;https://www.ieee-security.org/TC/SP2021/SPW2021/dls_website/&#34; target=&#34;_blank&#34;&gt;DLS&lt;/a&gt;, which are often co-located with top conferences. Workshops typically publish preliminary results or interesting new ideas, which maybe do not have yet a sufficiently large experimental evaluation or fully fledged theory behind them.&lt;/p&gt;
+
+&lt;p&gt;Sometimes work in Systems Security can also be published in closely-related venues but more focused on Data Mining, ML, AI. For example, &lt;a href=&#34;https://www2022.thewebconf.org&#34; target=&#34;_blank&#34;&gt;The Web Conference ACM&lt;/a&gt; which is a first-tier conference in data mining has a Security &amp;amp; Privacy track. Other top tier venues in data mining, AI and ML include: &lt;strong&gt;ICML&lt;/strong&gt;, &lt;strong&gt;ICLR&lt;/strong&gt;, &lt;strong&gt;WSDM&lt;/strong&gt;, &lt;strong&gt;NeurIPS&lt;/strong&gt;, &lt;strong&gt;IJCAI&lt;/strong&gt;, &lt;strong&gt;AAAI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;journals&#34;&gt;Journals&lt;/h4&gt;
+
+&lt;p&gt;Journals in Systems Security are typically used for extensions or consolidation of research results of a conference version, but often host also original research works.&lt;/p&gt;
+
+&lt;p&gt;Here is a rough list of reputable journals in Systems Security:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/journal/tops&#34; target=&#34;_blank&#34;&gt;ACM Transactions on Privacy and Security (TOPS; ex-TISSEC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206&#34; target=&#34;_blank&#34;&gt;IEEE Transactions on Information Forensics and Security (TIFS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858&#34; target=&#34;_blank&#34;&gt;IEEE Transactions on Dependable and Security Computing (TDSC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iospress.com/catalog/journals/journal-of-computer-security&#34; target=&#34;_blank&#34;&gt;Journal of Computer Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.journals.elsevier.com/computers-and-security&#34; target=&#34;_blank&#34;&gt;Elsevier Computers &amp;amp; Security&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Typically, ACM and IEEE journals with the name &amp;ldquo;Transactions&amp;rdquo; in it tend to be the more prestigious ones, but there are also other highly reputable journals which build a reputation for themselves.&lt;/p&gt;
+
+&lt;p&gt;In the field of AI and ML, some very good journals are also &lt;a href=&#34;https://www.journals.elsevier.com/pattern-recognition&#34; target=&#34;_blank&#34;&gt;Pattern Recognition&lt;/a&gt;, and &lt;a href=&#34;https://www.jmlr.org&#34; target=&#34;_blank&#34;&gt;JMLR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;number-of-citations&#34;&gt;Number of citations&lt;/h3&gt;
+
+&lt;p&gt;As humans, we like to measure things. Many systems refer to &lt;strong&gt;number of citations&lt;/strong&gt; as a proxy for quality and impact. While this is not necessarily true, papers with high number of citations may be either false positives (e.g., papers cited just because people searched for &amp;ldquo;computer worm&amp;rdquo; and cited the first result on scholar), or actually be very influential papers that heavily influenced research in a certain field.&lt;/p&gt;
+
+&lt;p&gt;Typically, you should also look out for &amp;ldquo;&lt;strong&gt;Test of Time Awards&lt;/strong&gt;&amp;rdquo;, which are given to influental papers typically after 10 years of their publications.&lt;/p&gt;
+
+&lt;h3 id=&#34;technical-reports-white-papers-and-pre-prints&#34;&gt;Technical reports, white papers and pre-prints&lt;/h3&gt;
+
+&lt;p&gt;Industry frequently publishes technical reports or white papers on some technology. Sometimes, also academics do it (although they mostly call them &amp;ldquo;technical reports&amp;rdquo;). While technical reports can undoubtedly be informative, it is important to note that they are &lt;strong&gt;not peer-reviewed&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hence, even when you find paper pre-prints on websites such as &lt;a href=&#34;https://arxiv.org&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;, be sure to double-check if they are published somewhere.&lt;/p&gt;
+
+&lt;p&gt;Sometimes the authors&amp;rsquo; name, reputation and affiliation is used as proxy for the quality, but you always need to be more cautious if has not been peer-reviewed, and to critically assess the work itself. It is important to remember, as &lt;strong&gt;Richard Feynman&lt;/strong&gt; said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;If [a theory] disagrees with experiments, it&amp;rsquo;s wrong. And that simple statement is the key to science. It doesn&amp;rsquo;t make a difference how beautiful your guess is, it doesn&amp;rsquo;t make a difference  how smart you are who made the guess, or what his name is: if it disagrees with the experiment, it&amp;rsquo;s wrong. That&amp;rsquo;s all there is to it.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/LIxvQMhttq4&#34; target=&#34;_blank&#34;&gt;Richard Feynman&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There can be a variety of valid reasons for which a work isn&amp;rsquo;t published yet (maybe it is currently under review). Nevertheless, it is important that you keep in mind that accepted work has been peer-reviewed by experts, and hence you should generally hold it to a higher standard than technical reports.&lt;/p&gt;
+
+&lt;h3 id=&#34;publication-years&#34;&gt;Publication years&lt;/h3&gt;
+
+&lt;p&gt;Keep in mind that &lt;strong&gt;research is incremental&lt;/strong&gt;: findings at time &lt;em&gt;t&lt;/em&gt; may be disproved at time &lt;em&gt;t+1&lt;/em&gt;. We always build on the shoulders of giants, but it is a neverending process. While it is fundamental not to forget prior research, it is important to check that your references are up to date with the current state of the art. Even 5 years in the field of computer security are a lot of time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;how-to-find-related-works&#34;&gt;How to find related works&lt;/h2&gt;
+
+&lt;p&gt;I try to summarize some useful tips and tricks to find relevant works in your field:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper search engines&lt;/strong&gt;: it may sound trivial, but I think &lt;a href=&#34;https://scholar.google.com&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; is your best search engine at the moment for finding research papers. If you do not have access to scholar, also &lt;a href=&#34;https://dblp.org&#34; target=&#34;_blank&#34;&gt;dblp&lt;/a&gt; is a good place to look into.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read &amp;ldquo;Related Work&amp;rdquo; sections&lt;/strong&gt;: If you find one paper that is very close to what you are doing, look at the papers they cite. This is often a good source of information, and provides&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Look at the &amp;ldquo;Cited by&amp;rdquo; field on Google Scholar&lt;/strong&gt;: If you click on the &amp;ldquo;Cited by&amp;rdquo; field on Google Scholar, you will also find a list of papers who cited that one, typically sorted by citation number. It can be useful to track more recent advancements of the state of the art.
+you interesting references to look into.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Surveys&lt;/strong&gt; and &lt;strong&gt;Systemization of Knowledge (SoK)&lt;/strong&gt; papers are also a great place where to understand better the state of the art in a more condensed way.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search researchers profiles&lt;/strong&gt;: If a researcher has published a top paper on a certain systems security topic, if you look at their research profile (e.g., personal home page, dblp, or Google Scholar), you may find other interesting works in the topic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sessions of recent security conferences&lt;/strong&gt;: Conferences are held once per year, and their presentation program is typically divided into &amp;ldquo;sessions&amp;rdquo; of a certain topic. For example, if you are doing research in Web Security, a conference may have a &amp;ldquo;Web Security&amp;rdquo; session in its program, which can be useful to find relevant works in that area at the moment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be creative in your keywords search&lt;/strong&gt;: Keywords and trends change over time, even for the same topic. Unfortunately&amp;mdash;to the best of my knowledge&amp;mdash;most paper search engines rely mostly on paper titles, not much on its content. Hence, you need to be smart in your keywords search, since some papers may be using different terminologies. For example, back in 2016, when I started doing research in Android malware analysis, I looked up for &amp;ldquo;Android clustering&amp;rdquo; on Google Scholar, or &amp;ldquo;mobile malware clustering&amp;rdquo;, and nothing was coming out of my searches. I initially thought no one else did it, until I found out that people was mostly framing it as &amp;ldquo;malware family identification&amp;rdquo;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;there-is-no-work-on-this-topic&#34;&gt;&amp;ldquo;There is no work on this topic&amp;rdquo;&lt;/h3&gt;
+
+&lt;p&gt;Students often come back to me saying they did not find anything on a certain topic. Well, there can be two situations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You had a novel idea for opening a new research field that no one else had before. Amazing!&lt;/li&gt;
+&lt;li&gt;You did not &amp;ldquo;yet&amp;rdquo; find anything related.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately, it is often the second case.&lt;/p&gt;
+
+&lt;p&gt;Sometimes you need to be creative in your literature review as well. Let me give an example. Maybe you are doing a research on identifying a new type of network attacks that came out earlier this year. But in most cases, even new attacks rely on component previously proposed in old versions. For example, if you want to identify attacker communications within internal networks, there has been a lot of research on &amp;ldquo;computer worms&amp;rdquo;. Or maybe even research on graphs and social network may be relevant with respect to the algorithms you are using.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;advice-on-reading-research-papers&#34;&gt;Advice on reading research papers&lt;/h2&gt;
+
+&lt;p&gt;When you first approach a literature review, you will find tens or hundreds of papers related to your work. It can be quite intimidating, and you may feel overwhelmed by the sheer amount of papers that pile up in your &amp;ldquo;to-read&amp;rdquo; folder. Indeed, reading thoroughly all of the papers published in a field would be a quite challenging task, if not impossible.&lt;/p&gt;
+
+&lt;p&gt;I do have the following advices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Be kind on yourself&lt;/strong&gt;. First of all, accept that you cannot possibly read everything thoroughly. Moreover, &lt;strong&gt;understanding is an incremental process&lt;/strong&gt;. You will not understand 100% of a paper on a first read. At least, I don&amp;rsquo;t. It takes time. The more you read about a certain topic, or re-read certain sections, the more you understand about it. I myself still go back and re-read some seminal papers, and always learn something new from a refreshed perspective. You will continuously grow as a researcher and as a professional, and so will your ability to capture connections and meanings in what you read.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read abstracts before choosing which papers to dive into&lt;/strong&gt;. Abstracts are there for a reason: to give you an idea of what the paper is contributing to the state of the art. Reading abstracts from many papers should give you an idea of what are the relevant challenges tackled by people, and a small intuition on how they managed to overcome prior works. Of course, abstracts are not sufficient to fully understand a work, but even reading one hundred abstracts becomes a manageable task, versus reading in detail one hundred papers papers. While you are still looking at the literature at a high level, it is also a good practice to skim papers by reading &lt;strong&gt;introduction&lt;/strong&gt;, &lt;strong&gt;conclusions&lt;/strong&gt;, and going over main results and figures. This is just to identify the works which are most relevant with your research, and which you should read more thoroughly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk to colleagues/supervisors&lt;/strong&gt;. People will have advice on which papers to read on a certain topic, especially if they&amp;rsquo;re experts in that sub-area. You can also ask feedback of whether a certain paper you found could be considered relevant or not for your project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Try to (re)implement small ideas&lt;/strong&gt;. It is often the case that you may get stuck into &amp;ldquo;reading mode&amp;rdquo;, and blocked by the high amount of information. If you try to implement or replicate someone else&amp;rsquo;s approach, see it as a great learning opportunity which will also benefit your literature review: you will start understanding better how other people have solved certain issues, and what are important questions that need answers. You may also identify missing bits in the literature.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reading groups&lt;/strong&gt; are an option where each person reads and summarizes a recent paper to the other members of the reading group. This helps scaling, and improves networking and presentation skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;positioning-your-work&#34;&gt;Positioning your work&lt;/h2&gt;
+
+&lt;p&gt;Understanding how to &lt;strong&gt;position&lt;/strong&gt; your work within the state of the art is hard.&lt;/p&gt;
+
+&lt;p&gt;In your research dissertation/paper, you do not only need to provide a &amp;ldquo;summary&amp;rdquo; of the related work. Positioning implies that you &amp;ldquo;compare and contrast&amp;rdquo; your proposed approach with existing literature.&lt;/p&gt;
+
+&lt;p&gt;Here is some advice I always refer to as a starting point:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;[&amp;hellip;] &amp;ldquo;At a high level what are the differences in what you are doing, and what others have done? Keep this at a high level, you can refer to a future section where specific details and differences will be given. But it is important for the reader to know at a high level, what is new about this work compared to other work in the area.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cs.columbia.edu/~hgs/etc/intro-style.html&#34; target=&#34;_blank&#34;&gt;Jim Kurose (UMass), Writing a Good Introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the previous quote, the author is talking about the Introduction section, where you should just give a high-level intuition of what you are doing that is novel. The Related Work section is dedicated to diving deeper into that comparison, and answering in more details many questions, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is your approach relying on previous techniques?&lt;/li&gt;
+&lt;li&gt;Are you solving a new problem? Are there other works solving similar problems?&lt;/li&gt;
+&lt;li&gt;What makes your approach better than the state of the art? Is it faster? Is it more efficient? Is it more reliable?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hence, it is not sufficient to just &amp;ldquo;list&amp;rdquo; existing literature, but you really need to explicitly write how each work is related to yours, and where you are improving the state of the art.&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;Related Work&amp;rdquo; section need to be easily accessible to readers, as there is a risk of listing and comparing against a huge amount of papers and losing the &amp;ldquo;big picture&amp;rdquo;. So, I find it often useful for clarify to &lt;strong&gt;identify two/three macro-areas of related research&lt;/strong&gt; and summarize my contributions with respect to works in each of those areas.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;final-considerations&#34;&gt;Final Considerations&lt;/h2&gt;
+
+&lt;p&gt;I hope you have found this post useful.&lt;/p&gt;
+
+&lt;p&gt;This is not meant to be an exhaustive list of relevant publication venues, and tips for conducting a literature review. In general, you should see this just as an initial advice to help you navigate more confidently within the state of the art of Systems Security, upon venturing in it for the first time.&lt;/p&gt;
+
+&lt;p&gt;I would be very happy to hear what are your experiences and if you have any other relevant advice into conducting literature review.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Python multiprocessing</title>
