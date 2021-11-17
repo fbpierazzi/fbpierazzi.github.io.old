@@ -51,7 +51,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sec.cs.tu-bs.de/~konrieck/topnotch/&#34; target=&#34;_blank&#34;&gt;Influental Security Papers&lt;/a&gt;, by Konrad Rieck, TU Braunschweig&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sec.cs.tu-bs.de/~konrieck/topnotch/&#34; target=&#34;_blank&#34;&gt;Systems Security Circus&lt;/a&gt;, by Davide Balzarotti, S3@Eurecom&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.s3.eurecom.fr/~balzarot/notes/top4_2020/&#34; target=&#34;_blank&#34;&gt;System Security Circus&lt;/a&gt;, by Davide Balzarotti, S3@Eurecom&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;conferences&#34;&gt;Conferences&lt;/h4&gt;
@@ -138,7 +138,8 @@
 &lt;li&gt;&lt;strong&gt;Read &amp;ldquo;Related Work&amp;rdquo; sections&lt;/strong&gt;: If you find one paper that is very close to what you are doing, look at the papers they cite. This is often a good source of information, and provides&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Look at the &amp;ldquo;Cited by&amp;rdquo; field on Google Scholar&lt;/strong&gt;: If you click on the &amp;ldquo;Cited by&amp;rdquo; field on Google Scholar, you will also find a list of papers who cited that one, typically sorted by citation number. It can be useful to track more recent advancements of the state of the art.
 you interesting references to look into.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Surveys&lt;/strong&gt; and &lt;strong&gt;Systemization of Knowledge (SoK)&lt;/strong&gt; papers are also a great place where to understand better the state of the art in a more condensed way.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Surveys&lt;/strong&gt; and &lt;strong&gt;Systemization of Knowledge (SoK)&lt;/strong&gt; papers are also a great place where to understand better the state of the art in a more condensed way. Sometimes also &lt;strong&gt;Reading Lists&lt;/strong&gt; are published by prominent researchers in a field, such as the &lt;a href=&#34;https://nicholas.carlini.com/writing/2018/adversarial-machine-learning-reading-list.html&#34; target=&#34;_blank&#34;&gt;Adversarial Machine Learning Reading List
+&lt;/a&gt; from Nicholas Carlini.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Search researchers profiles&lt;/strong&gt;: If a researcher has published a top paper on a certain systems security topic, if you look at their research profile (e.g., personal home page, dblp, or Google Scholar), you may find other interesting works in the topic.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sessions of recent security conferences&lt;/strong&gt;: Conferences are held once per year, and their presentation program is typically divided into &amp;ldquo;sessions&amp;rdquo; of a certain topic. For example, if you are doing research in Web Security, a conference may have a &amp;ldquo;Web Security&amp;rdquo; session in its program, which can be useful to find relevant works in that area at the moment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Be creative in your keywords search&lt;/strong&gt;: Keywords and trends change over time, even for the same topic. Unfortunately&amp;mdash;to the best of my knowledge&amp;mdash;most paper search engines rely mostly on paper titles, not much on its content. Hence, you need to be smart in your keywords search, since some papers may be using different terminologies. For example, back in 2016, when I started doing research in Android malware analysis, I looked up for &amp;ldquo;Android clustering&amp;rdquo; on Google Scholar, or &amp;ldquo;mobile malware clustering&amp;rdquo;, and nothing was coming out of my searches. I initially thought no one else did it, until I found out that people was mostly framing it as &amp;ldquo;malware family identification&amp;rdquo;!&lt;/li&gt;
@@ -210,6 +211,15 @@ you interesting references to look into.&lt;/li&gt;
 &lt;p&gt;This is not meant to be an exhaustive list of relevant publication venues, and tips for conducting a literature review. In general, you should see this just as an initial advice to help you navigate more confidently within the state of the art of Systems Security, upon venturing in it for the first time.&lt;/p&gt;
 
 &lt;p&gt;I would be very happy to hear what are your experiences and if you have any other relevant advice into conducting literature review.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;changelog&#34;&gt;Changelog&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;v1.0: Nov 16, 2021&lt;/li&gt;
+&lt;li&gt;v1.0.1: Nov 17, 2021 - &lt;em&gt;Fixed System Security Circus link; added Carlini adversarial reading list&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
