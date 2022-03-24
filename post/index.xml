@@ -13,6 +13,91 @@
     </image>
     
     <item>
+      <title>Malware Datasets with Timestamps</title>
+      <link>/post/tutorial/malwaredatasets/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/post/tutorial/malwaredatasets/</guid>
+      <description>
+
+&lt;p&gt;This article reports a brief summary of the main datasets we have released for malware research. I will try to keep this list updated with new entries, and use the &amp;ldquo;changelog&amp;rdquo; at the end to track major changes to this article.&lt;/p&gt;
+
+&lt;h2 id=&#34;datasets-available&#34;&gt;Datasets Available&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;timestamped malware datasets&lt;/strong&gt; which we have released for research are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://s2lab.cs.ucl.ac.uk/projects/tesseract/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Tesseract dataset&lt;/strong&gt;&lt;/a&gt; (apps from 2014 to 2016): malware downloaded from AndroZoo with extracted feature spaces for &lt;a href=&#34;https://www.ndss-symposium.org/wp-content/uploads/2017/09/11_3_1.pdf&#34; target=&#34;_blank&#34;&gt;DREBIN&lt;/a&gt; and &lt;a href=&#34;https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/mamadroid-detecting-android-malware-building-markov-chains-behavioral-models/&#34; target=&#34;_blank&#34;&gt;MaMaDroid&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s2lab.cs.ucl.ac.uk/projects/intriguing/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;S&amp;amp;P20 APG dataset&lt;/strong&gt;&lt;/a&gt; (apps from 2017 to 2018): malware downloaded from AndroZoo with extracted feature spaces for &lt;a href=&#34;https://www.ndss-symposium.org/wp-content/uploads/2017/09/11_3_1.pdf&#34; target=&#34;_blank&#34;&gt;DREBIN&lt;/a&gt; and &lt;a href=&#34;https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/mamadroid-detecting-android-malware-building-markov-chains-behavioral-models/&#34; target=&#34;_blank&#34;&gt;MaMaDroid&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please note that we are not releasing the goodware/malware directly, but instead only the SHAs of the apps we considered. To re-download the original apks, you can re-download them from &lt;a href=&#34;https://androzoo.uni.lu&#34; target=&#34;_blank&#34;&gt;AndroZoo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;loading-features&#34;&gt;Loading Features&lt;/h2&gt;
+
+&lt;p&gt;We did separate the dataset into three JSON files: X, Y, and meta. The following function is used to load the dataset with timestamps:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+import datetime
+import json
+import logging
+import time
+
+def load_features(fname, shas=False):
+    &amp;quot;&amp;quot;&amp;quot;Load feature set.
+
+    Args:
+        feature_set (str): The common prefix for the dataset.
+            (e.g., &#39;data/features/drebin&#39; -&amp;gt; &#39;data/features/drebin-[X|Y|meta].json&#39;)
+
+        shas (bool): Whether to include shas. In some versions of the dataset,
+            shas were included to double-check alignment - these are _not_ features
+            and _must_ be removed before training.
+
+    Returns:
+        Tuple[List[Dict], List, List]: The features, labels, and timestamps
+            for the dataset.
+
+    &amp;quot;&amp;quot;&amp;quot;
+    logging.info(&#39;Loading features...&#39;)
+    with open(&#39;{}-X.json&#39;.format(fname), &#39;r&#39;) as f:
+        X = json.load(f)
+    # if not shas:
+    #     [o.pop(&#39;sha256&#39;) for o in X]
+
+    logging.info(&#39;Loading labels...&#39;)
+    with open(&#39;{}-Y.json&#39;.format(fname), &#39;rt&#39;) as f:
+        y = json.load(f)
+    if &#39;apg&#39; not in fname:
+        y = [o[0] for o in y]
+
+    logging.info(&#39;Loading timestamps...&#39;)
+    with open(&#39;{}-meta.json&#39;.format(fname), &#39;rt&#39;) as f:
+        t = json.load(f)
+    t = [o[&#39;dex_date&#39;] for o in t]
+    if &#39;apg&#39; not in fname:
+        t = [datetime.strptime(o if isinstance(o, str) else time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(o)),
+                               &#39;%Y-%m-%dT%H:%M:%S&#39;) for o in t]
+    else:
+        t = [datetime.strptime(o if isinstance(o, str) else time.strftime(&#39;%Y-%m-%d %H:%M:%S&#39;, time.localtime(o)),
+                               &#39;%Y-%m-%d %H:%M:%S&#39;) for o in t]
+    return X, y, t
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please remember to remove any SHAs from the dataset and do not consider them as features.&lt;/p&gt;
+
+&lt;h2 id=&#34;memory-errors&#34;&gt;Memory Errors&lt;/h2&gt;
+
+&lt;p&gt;If you are a BSc/MSc student doing a dissertation, and you are relying on our datasets, but do not have access to a powerful server, you may want to consider &amp;ldquo;downsampling&amp;rdquo; strategies to reduce the size of the dataset to make it more manageable.&lt;/p&gt;
+
+&lt;h3 id=&#34;changelog&#34;&gt;Changelog&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;24/03/2022: v1.0 published&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to Review Literature in Systems Security</title>
       <link>/post/tutorial/literaturereview/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0100</pubDate>

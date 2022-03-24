@@ -5,12 +5,21 @@
     <link>/authors/jacopo-cortellazzi/</link>
       <atom:link href="/authors/jacopo-cortellazzi/index.xml" rel="self" type="application/rss+xml" />
     <description>Jacopo Cortellazzi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Jacopo Cortellazzi</title>
       <link>/authors/jacopo-cortellazzi/</link>
     </image>
+    
+    <item>
+      <title>Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers</title>
+      <link>/publication/jigsaw/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <guid>/publication/jigsaw/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
     
     <item>
       <title>Intriguing Properties of Adversarial ML Attacks in the Problem Space</title>
