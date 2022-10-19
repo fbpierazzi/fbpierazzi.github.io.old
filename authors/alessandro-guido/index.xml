@@ -5,7 +5,7 @@
     <link>/authors/alessandro-guido/</link>
       <atom:link href="/authors/alessandro-guido/index.xml" rel="self" type="application/rss+xml" />
     <description>Alessandro Guido</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0200</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Alessandro Guido</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Scalable Architecture for Online Prioritisation of Cyber Threats</title>
       <link>/publication/cycon17/</link>
-      <pubDate>Fri, 02 Jun 2017 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0200</pubDate>
       <guid>/publication/cycon17/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>Analysis of High Volumes of Network Traffic for Advanced Persistent Threat Detection</title>
       <link>/publication/comnet16/</link>
-      <pubDate>Wed, 15 Jun 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0200</pubDate>
       <guid>/publication/comnet16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -33,7 +33,7 @@
     <item>
       <title>Countering Advanced Persistent Threats through security intelligence and big data analytics</title>
       <link>/publication/cycon16/</link>
-      <pubDate>Thu, 02 Jun 2016 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0200</pubDate>
       <guid>/publication/cycon16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -42,7 +42,7 @@
     <item>
       <title>The Network Perspective of Cloud Security</title>
       <link>/publication/ncca/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
       <guid>/publication/ncca/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

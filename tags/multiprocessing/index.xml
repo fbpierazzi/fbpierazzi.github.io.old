@@ -5,7 +5,7 @@
     <link>/tags/multiprocessing/</link>
       <atom:link href="/tags/multiprocessing/index.xml" rel="self" type="application/rss+xml" />
     <description>multiprocessing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>multiprocessing</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Introduction to Python multiprocessing</title>
       <link>/post/tutorial/multiprocessing/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0100</pubDate>
       <guid>/post/tutorial/multiprocessing/</guid>
       <description>
 

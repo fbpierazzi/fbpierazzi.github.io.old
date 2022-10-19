@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0200</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Fabio Pierazzi</title>
       <link>/authors/fabio-pierazzi/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/fabio-pierazzi/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Feargus Pendlebury</title>
       <link>/authors/feargus-pendlebury/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/feargus-pendlebury/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Gang Wang</title>
       <link>/authors/gang-wang/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/gang-wang/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Jacopo Cortellazzi</title>
       <link>/authors/jacopo-cortellazzi/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/jacopo-cortellazzi/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>Kevin Tu</title>
       <link>/authors/kevin-tu/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/kevin-tu/</guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>Limin Yang</title>
       <link>/authors/limin-yang/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/limin-yang/</guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>Lorenzo Cavallaro</title>
       <link>/authors/lorenzo-cavallaro/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/lorenzo-cavallaro/</guid>
       <description></description>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>Zhi Chen</title>
       <link>/authors/zhi-chen/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/zhi-chen/</guid>
       <description></description>
     </item>
@@ -79,7 +79,7 @@
     <item>
       <title>Alexander Warnecke</title>
       <link>/authors/alexander-warnecke/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/alexander-warnecke/</guid>
       <description></description>
     </item>
@@ -87,7 +87,7 @@
     <item>
       <title>Christian Wressnegger</title>
       <link>/authors/christian-wressnegger/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/christian-wressnegger/</guid>
       <description></description>
     </item>
@@ -95,7 +95,7 @@
     <item>
       <title>Daniel Arp</title>
       <link>/authors/daniel-arp/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/daniel-arp/</guid>
       <description></description>
     </item>
@@ -103,7 +103,7 @@
     <item>
       <title>Erwin Quiring</title>
       <link>/authors/erwin-quiring/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/erwin-quiring/</guid>
       <description></description>
     </item>
@@ -111,7 +111,7 @@
     <item>
       <title>Konrad Rieck</title>
       <link>/authors/konrad-rieck/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
       <guid>/authors/konrad-rieck/</guid>
       <description></description>
     </item>
@@ -119,7 +119,7 @@
     <item>
       <title>Federico Barbero</title>
       <link>/authors/federico-barbero/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0200</pubDate>
       <guid>/authors/federico-barbero/</guid>
       <description></description>
     </item>
@@ -127,7 +127,7 @@
     <item>
       <title>Annalisa Appice</title>
       <link>/authors/annalisa-appice/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
       <guid>/authors/annalisa-appice/</guid>
       <description></description>
     </item>
@@ -135,7 +135,7 @@
     <item>
       <title>Corrado Loglisci</title>
       <link>/authors/corrado-loglisci/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
       <guid>/authors/corrado-loglisci/</guid>
       <description></description>
     </item>
@@ -143,7 +143,7 @@
     <item>
       <title>Giuseppina Andresini</title>
       <link>/authors/giuseppina-andresini/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
       <guid>/authors/giuseppina-andresini/</guid>
       <description></description>
     </item>
@@ -151,7 +151,7 @@
     <item>
       <title>Zeliang Kan</title>
       <link>/authors/zeliang-kan/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
       <guid>/authors/zeliang-kan/</guid>
       <description></description>
     </item>
@@ -159,7 +159,7 @@
     <item>
       <title>Gabi Dreo Rodosek</title>
       <link>/authors/gabi-dreo-rodosek/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       <guid>/authors/gabi-dreo-rodosek/</guid>
       <description></description>
     </item>
@@ -167,7 +167,7 @@
     <item>
       <title>Luis Mu&amp;#241;oz-Gonz&amp;aacute;lez</title>
       <link>/authors/luis-mu#241oz-gonzaacutelez/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       <guid>/authors/luis-mu#241oz-gonzaacutelez/</guid>
       <description></description>
     </item>
@@ -175,7 +175,7 @@
     <item>
       <title>Raphael Labaca-Castro</title>
       <link>/authors/raphael-labaca-castro/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       <guid>/authors/raphael-labaca-castro/</guid>
       <description></description>
     </item>
@@ -183,7 +183,7 @@
     <item>
       <title>Andrea Lanzi</title>
       <link>/authors/andrea-lanzi/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
       <guid>/authors/andrea-lanzi/</guid>
       <description></description>
     </item>
@@ -191,7 +191,7 @@
     <item>
       <title>Danilo Bruschi</title>
       <link>/authors/danilo-bruschi/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
       <guid>/authors/danilo-bruschi/</guid>
       <description></description>
     </item>
@@ -199,7 +199,7 @@
     <item>
       <title>Michele Colajanni</title>
       <link>/authors/michele-colajanni/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
       <guid>/authors/michele-colajanni/</guid>
       <description></description>
     </item>
@@ -207,7 +207,7 @@
     <item>
       <title>Mirco Marchetti</title>
       <link>/authors/mirco-marchetti/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
       <guid>/authors/mirco-marchetti/</guid>
       <description></description>
     </item>
@@ -215,7 +215,7 @@
     <item>
       <title>Stefano Cristalli</title>
       <link>/authors/stefano-cristalli/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
       <guid>/authors/stefano-cristalli/</guid>
       <description></description>
     </item>
@@ -223,7 +223,7 @@
     <item>
       <title>Fabio Pierazzi&amp;#42;</title>
       <link>/authors/fabio-pierazzi#42/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate>
       <guid>/authors/fabio-pierazzi#42/</guid>
       <description></description>
     </item>
@@ -231,7 +231,7 @@
     <item>
       <title>Feargus Pendlebury&amp;#42;</title>
       <link>/authors/feargus-pendlebury#42/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate>
       <guid>/authors/feargus-pendlebury#42/</guid>
       <description></description>
     </item>
@@ -239,7 +239,7 @@
     <item>
       <title>Ghita Mezzour</title>
       <link>/authors/ghita-mezzour/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0100</pubDate>
       <guid>/authors/ghita-mezzour/</guid>
       <description></description>
     </item>
@@ -247,7 +247,7 @@
     <item>
       <title>Qian Han</title>
       <link>/authors/qian-han/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0100</pubDate>
       <guid>/authors/qian-han/</guid>
       <description></description>
     </item>
@@ -255,7 +255,7 @@
     <item>
       <title>V.S. Subrahmanian</title>
       <link>/authors/v.s.-subrahmanian/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0100</pubDate>
       <guid>/authors/v.s.-subrahmanian/</guid>
       <description></description>
     </item>
@@ -263,7 +263,7 @@
     <item>
       <title>Johannes Kinder</title>
       <link>/authors/johannes-kinder/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0200</pubDate>
       <guid>/authors/johannes-kinder/</guid>
       <description></description>
     </item>
@@ -271,7 +271,7 @@
     <item>
       <title>Roberto Jordaney</title>
       <link>/authors/roberto-jordaney/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0200</pubDate>
       <guid>/authors/roberto-jordaney/</guid>
       <description></description>
     </item>
@@ -279,7 +279,7 @@
     <item>
       <title>Chongyang Bai</title>
       <link>/authors/chongyang-bai/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       <guid>/authors/chongyang-bai/</guid>
       <description></description>
     </item>
@@ -287,7 +287,7 @@
     <item>
       <title>Giovanni Apruzzese</title>
       <link>/authors/giovanni-apruzzese/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0200</pubDate>
       <guid>/authors/giovanni-apruzzese/</guid>
       <description></description>
     </item>
@@ -295,7 +295,7 @@
     <item>
       <title>Alessandro Guido</title>
       <link>/authors/alessandro-guido/</link>
-      <pubDate>Fri, 02 Jun 2017 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0200</pubDate>
       <guid>/authors/alessandro-guido/</guid>
       <description></description>
     </item>
@@ -303,7 +303,7 @@
     <item>
       <title>Tanmoy Chakraborty</title>
       <link>/authors/tanmoy-chakraborty/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0200</pubDate>
       <guid>/authors/tanmoy-chakraborty/</guid>
       <description></description>
     </item>
@@ -311,7 +311,7 @@
     <item>
       <title>Andrea Pugliese</title>
       <link>/authors/andrea-pugliese/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       <guid>/authors/andrea-pugliese/</guid>
       <description></description>
     </item>
@@ -319,7 +319,7 @@
     <item>
       <title>Edoardo Serra</title>
       <link>/authors/edoardo-serra/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       <guid>/authors/edoardo-serra/</guid>
       <description></description>
     </item>
@@ -327,7 +327,7 @@
     <item>
       <title>Gerardo I. Simari</title>
       <link>/authors/gerardo-i.-simari/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       <guid>/authors/gerardo-i.-simari/</guid>
       <description></description>
     </item>
@@ -335,7 +335,7 @@
     <item>
       <title>Noseong Park</title>
       <link>/authors/noseong-park/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       <guid>/authors/noseong-park/</guid>
       <description></description>
     </item>
@@ -343,7 +343,7 @@
     <item>
       <title>Sushil Jajodia</title>
       <link>/authors/sushil-jajodia/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0200</pubDate>
       <guid>/authors/sushil-jajodia/</guid>
       <description></description>
     </item>
@@ -351,7 +351,7 @@
     <item>
       <title>Sara Casolari</title>
       <link>/authors/sara-casolari/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
       <guid>/authors/sara-casolari/</guid>
       <description></description>
     </item>
@@ -359,7 +359,7 @@
     <item>
       <title>Andrea Balboni</title>
       <link>/authors/andrea-balboni/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
       <guid>/authors/andrea-balboni/</guid>
       <description></description>
     </item>
@@ -367,7 +367,7 @@
     <item>
       <title>Luca Ferretti</title>
       <link>/authors/luca-ferretti/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0100</pubDate>
       <guid>/authors/luca-ferretti/</guid>
       <description></description>
     </item>
@@ -375,7 +375,7 @@
     <item>
       <title>Marcello Missiroli</title>
       <link>/authors/marcello-missiroli/</link>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0200</pubDate>
       <guid>/authors/marcello-missiroli/</guid>
       <description></description>
     </item>
@@ -393,7 +393,7 @@
 
 &lt;!-- &lt;span class=&#34;badge badge-warning&#34;&gt;Special Issue&lt;/span&gt; **I am one of the guest editors of a [Special Issue on &#34;Offensive Machine Learning&#34;](https://dl.acm.org/pb-assets/dtrap/OffensiveMLSpecialIssue-1612112373120.pdf) as part of ACM DTRAP journal. _Deadline: July 30th, 2021_.** --&gt;
 
-&lt;p&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;Workshop&lt;/span&gt; &lt;strong&gt;I am Program Co-Chair of the &lt;a href=&#34;https://worma.gitlab.io/2022/&#34; target=&#34;_blank&#34;&gt;1st ACM Workshop on Robust Malware Analysis (WoRMA)&lt;/a&gt;, co-located with ACM AsiaCCS.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- &lt;span class=&#34;badge badge-warning&#34;&gt;Workshop&lt;/span&gt; **I am Program Co-Chair of the [1st ACM Workshop on Robust Malware Analysis (WoRMA)](https://worma.gitlab.io/2022/), co-located with ACM AsiaCCS.** --&gt;
 
 &lt;p&gt;&lt;span class=&#34;badge badge-danger&#34;&gt;I&amp;rsquo;m Hiring!&lt;/span&gt; &lt;strong&gt;I am recruiting Ph.D. students to join my research team at King&amp;rsquo;s College London. If you are interested, &lt;a href=&#34;/prospective/&#34;&gt;read this page&lt;/a&gt;. Please note that I do not have PostDoc positions at the moment, but keep an eye on this page for future announcements.&lt;/strong&gt;&lt;/p&gt;
 </description>

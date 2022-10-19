@@ -5,7 +5,7 @@
     <link>/tags/python/</link>
       <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>python</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Malware Datasets with Timestamps</title>
       <link>/post/tutorial/malwaredatasets/</link>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0100</pubDate>
       <guid>/post/tutorial/malwaredatasets/</guid>
       <description>
 
@@ -100,7 +100,7 @@ def load_features(fname, shas=False):
     <item>
       <title>Introduction to Python multiprocessing</title>
       <link>/post/tutorial/multiprocessing/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0100</pubDate>
       <guid>/post/tutorial/multiprocessing/</guid>
       <description>
 

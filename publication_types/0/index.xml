@@ -5,7 +5,7 @@
     <link>/publication_types/0/</link>
       <atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0200</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>0</title>
@@ -15,7 +15,7 @@
     <item>
       <title>POSTER: Realistic Adversarial ML Attacks in the Problem-Space</title>
       <link>/publication/apg-poster/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0200</pubDate>
       <guid>/publication/apg-poster/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>POSTER: Enabling Fair ML Evaluations for Security</title>
       <link>/publication/tesseract-poster/</link>
-      <pubDate>Sat, 20 Oct 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
       <guid>/publication/tesseract-poster/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -33,7 +33,7 @@
     <item>
       <title>Security analytics for prevention and detection of advanced cyberattacks</title>
       <link>/publication/phd/</link>
-      <pubDate>Mon, 27 Mar 2017 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 27 Mar 2017 00:00:00 +0200</pubDate>
       <guid>/publication/phd/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
