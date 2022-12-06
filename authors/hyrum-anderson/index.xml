@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyrum Anderson | Fabio Pierazzi</title>
+    <link>/authors/hyrum-anderson/</link>
+      <atom:link href="/authors/hyrum-anderson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hyrum Anderson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Hyrum Anderson</title>
+      <link>/authors/hyrum-anderson/</link>
+    </image>
+    
+    <item>
+      <title>Position: “Real Attackers Don’t Compute Gradients”: Bridging the Gap Between Adversarial ML Research and Practice</title>
+      <link>/publication/realgradients/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/realgradients/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

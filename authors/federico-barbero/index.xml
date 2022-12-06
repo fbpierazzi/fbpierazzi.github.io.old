@@ -5,7 +5,7 @@
     <link>/authors/federico-barbero/</link>
       <atom:link href="/authors/federico-barbero/index.xml" rel="self" type="application/rss+xml" />
     <description>Federico Barbero</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 20 May 2022 00:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 20 May 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Federico Barbero</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift</title>
       <link>/publication/transcending/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0100</pubDate>
       <guid>/publication/transcending/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

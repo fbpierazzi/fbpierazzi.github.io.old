@@ -5,7 +5,7 @@
     <link>/authors/sara-casolari/</link>
       <atom:link href="/authors/sara-casolari/index.xml" rel="self" type="application/rss+xml" />
     <description>Sara Casolari</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sara Casolari</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Exploratory Security Analytics for Anomaly Detection</title>
       <link>/publication/cose16/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       <guid>/publication/cose16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

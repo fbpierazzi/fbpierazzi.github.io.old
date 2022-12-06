@@ -5,7 +5,7 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>1</title>
@@ -13,9 +13,18 @@
     </image>
     
     <item>
+      <title>Position: “Real Attackers Don’t Compute Gradients”: Bridging the Gap Between Adversarial ML Research and Practice</title>
+      <link>/publication/realgradients/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/realgradients/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers</title>
       <link>/publication/jigsaw/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
       <guid>/publication/jigsaw/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -24,7 +33,7 @@
     <item>
       <title>Dos and Don&#39;ts of Machine Learning in Computer Security</title>
       <link>/publication/dodo/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0100</pubDate>
       <guid>/publication/dodo/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -33,7 +42,7 @@
     <item>
       <title>Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift</title>
       <link>/publication/transcending/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0100</pubDate>
       <guid>/publication/transcending/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -42,7 +51,7 @@
     <item>
       <title>INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection</title>
       <link>/publication/insomnia/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
       <guid>/publication/insomnia/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -51,7 +60,7 @@
     <item>
       <title>Investigating Labelless Drift Adaptation for Malware Detection</title>
       <link>/publication/deplusplus/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
       <guid>/publication/deplusplus/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -60,7 +69,7 @@
     <item>
       <title>Intriguing Properties of Adversarial ML Attacks in the Problem Space</title>
       <link>/publication/apg/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/publication/apg/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -69,7 +78,7 @@
     <item>
       <title>TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time</title>
       <link>/publication/tesseract-usenix/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0100</pubDate>
       <guid>/publication/tesseract-usenix/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -78,7 +87,7 @@
     <item>
       <title>Scalable Architecture for Online Prioritisation of Cyber Threats</title>
       <link>/publication/cycon17/</link>
-      <pubDate>Fri, 02 Jun 2017 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0100</pubDate>
       <guid>/publication/cycon17/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -87,7 +96,7 @@
     <item>
       <title>Countering Advanced Persistent Threats through security intelligence and big data analytics</title>
       <link>/publication/cycon16/</link>
-      <pubDate>Thu, 02 Jun 2016 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0100</pubDate>
       <guid>/publication/cycon16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -96,7 +105,7 @@
     <item>
       <title>The Network Perspective of Cloud Security</title>
       <link>/publication/ncca/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0100</pubDate>
       <guid>/publication/ncca/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -105,7 +114,7 @@
     <item>
       <title>Security and privacy of location-based services for in-vehicle device systems</title>
       <link>/publication/lsauc/</link>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0100</pubDate>
       <guid>/publication/lsauc/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -114,7 +123,7 @@
     <item>
       <title>Efficient detection of unauthorized data modification in cloud databases</title>
       <link>/publication/iscc/</link>
-      <pubDate>Fri, 20 Jun 2014 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0100</pubDate>
       <guid>/publication/iscc/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -123,7 +132,7 @@
     <item>
       <title>Security and confidentiality solutions for public cloud database services</title>
       <link>/publication/securware/</link>
-      <pubDate>Sat, 24 Aug 2013 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 24 Aug 2013 00:00:00 +0100</pubDate>
       <guid>/publication/securware/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

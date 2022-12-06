@@ -5,7 +5,7 @@
     <link>/authors/mirco-marchetti/</link>
       <atom:link href="/authors/mirco-marchetti/index.xml" rel="self" type="application/rss+xml" />
     <description>Mirco Marchetti</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Mirco Marchetti</title>
@@ -15,7 +15,7 @@
     <item>
       <title>GLYPH: Efficient ML-based Detection of Heap Spraying Attacks</title>
       <link>/publication/glyph/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/glyph/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>Detection and Threat Prioritization of Pivoting Attacks in Large Networks</title>
       <link>/publication/pivoting/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
       <guid>/publication/pivoting/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -33,7 +33,7 @@
     <item>
       <title>Scalable Architecture for Online Prioritisation of Cyber Threats</title>
       <link>/publication/cycon17/</link>
-      <pubDate>Fri, 02 Jun 2017 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0100</pubDate>
       <guid>/publication/cycon17/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -42,7 +42,7 @@
     <item>
       <title>Analysis of High Volumes of Network Traffic for Advanced Persistent Threat Detection</title>
       <link>/publication/comnet16/</link>
-      <pubDate>Wed, 15 Jun 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0100</pubDate>
       <guid>/publication/comnet16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -51,7 +51,7 @@
     <item>
       <title>Countering Advanced Persistent Threats through security intelligence and big data analytics</title>
       <link>/publication/cycon16/</link>
-      <pubDate>Thu, 02 Jun 2016 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0100</pubDate>
       <guid>/publication/cycon16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -60,7 +60,7 @@
     <item>
       <title>Exploratory Security Analytics for Anomaly Detection</title>
       <link>/publication/cose16/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       <guid>/publication/cose16/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -69,7 +69,7 @@
     <item>
       <title>The Network Perspective of Cloud Security</title>
       <link>/publication/ncca/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0100</pubDate>
       <guid>/publication/ncca/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -78,7 +78,7 @@
     <item>
       <title>Scalable Architecture for Multi-User Encrypted SQL Operations on Cloud Database Services</title>
       <link>/publication/tcc_mutedb/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       <guid>/publication/tcc_mutedb/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -87,7 +87,7 @@
     <item>
       <title>Efficient detection of unauthorized data modification in cloud databases</title>
       <link>/publication/iscc/</link>
-      <pubDate>Fri, 20 Jun 2014 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0100</pubDate>
       <guid>/publication/iscc/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -96,7 +96,7 @@
     <item>
       <title>Performance and Cost Evaluation of an Adaptive Encryption Architecture for Cloud Databases</title>
       <link>/publication/tcc_onion/</link>
-      <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0100</pubDate>
       <guid>/publication/tcc_onion/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -105,7 +105,7 @@
     <item>
       <title>Security and confidentiality solutions for public cloud database services</title>
       <link>/publication/securware/</link>
-      <pubDate>Sat, 24 Aug 2013 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 24 Aug 2013 00:00:00 +0100</pubDate>
       <guid>/publication/securware/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

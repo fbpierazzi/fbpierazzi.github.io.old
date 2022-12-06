@@ -5,7 +5,7 @@
     <link>/authors/chongyang-bai/</link>
       <atom:link href="/authors/chongyang-bai/index.xml" rel="self" type="application/rss+xml" />
     <description>Chongyang Bai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Chongyang Bai</title>
@@ -15,7 +15,7 @@
     <item>
       <title>DBank: Predictive Behavioral Analysis of Recent Android Banking Trojans</title>
       <link>/publication/dbank/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/dbank/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>

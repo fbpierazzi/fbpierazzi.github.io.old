@@ -5,7 +5,7 @@
     <link>/authors/ghita-mezzour/</link>
       <atom:link href="/authors/ghita-mezzour/index.xml" rel="self" type="application/rss+xml" />
     <description>Ghita Mezzour</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Ghita Mezzour</title>
@@ -15,7 +15,7 @@
     <item>
       <title>A Data-Driven Characterization of Modern Android Spyware</title>
       <link>/publication/spyware/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/publication/spyware/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>DBank: Predictive Behavioral Analysis of Recent Android Banking Trojans</title>
       <link>/publication/dbank/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/dbank/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
