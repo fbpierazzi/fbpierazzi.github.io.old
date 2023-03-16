@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,74 @@
     </image>
     
     <item>
-      <title>David Freeman</title>
-      <link>/authors/david-freeman/</link>
-      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/authors/david-freeman/</guid>
+      <title>Fabio Pierazzi</title>
+      <link>/authors/fabio-pierazzi/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/fabio-pierazzi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fabio Pierazzi</title>
-      <link>/authors/fabio-pierazzi/</link>
+      <title>Feargus Pendlebury</title>
+      <link>/authors/feargus-pendlebury/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/feargus-pendlebury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gang Wang</title>
+      <link>/authors/gang-wang/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/gang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jacopo Cortellazzi</title>
+      <link>/authors/jacopo-cortellazzi/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/jacopo-cortellazzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kevin Tu</title>
+      <link>/authors/kevin-tu/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/kevin-tu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Limin Yang</title>
+      <link>/authors/limin-yang/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/limin-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorenzo Cavallaro</title>
+      <link>/authors/lorenzo-cavallaro/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/lorenzo-cavallaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhi Chen</title>
+      <link>/authors/zhi-chen/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>/authors/zhi-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Freeman</title>
+      <link>/authors/david-freeman/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/authors/fabio-pierazzi/</guid>
+      <guid>/authors/david-freeman/</guid>
       <description></description>
     </item>
     
@@ -57,62 +113,6 @@
       <link>/authors/savino-dambra/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
       <guid>/authors/savino-dambra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feargus Pendlebury</title>
-      <link>/authors/feargus-pendlebury/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/feargus-pendlebury/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gang Wang</title>
-      <link>/authors/gang-wang/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/gang-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jacopo Cortellazzi</title>
-      <link>/authors/jacopo-cortellazzi/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/jacopo-cortellazzi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kevin Tu</title>
-      <link>/authors/kevin-tu/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/kevin-tu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Limin Yang</title>
-      <link>/authors/limin-yang/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/limin-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lorenzo Cavallaro</title>
-      <link>/authors/lorenzo-cavallaro/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/lorenzo-cavallaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhi Chen</title>
-      <link>/authors/zhi-chen/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0100</pubDate>
-      <guid>/authors/zhi-chen/</guid>
       <description></description>
     </item>
     
